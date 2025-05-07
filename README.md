@@ -93,17 +93,24 @@ Make sure you install a working version of Jupyter Notebook and Python version 3
 Applied Linear Algebra was first offered in 2014 and is scheduled to be taught 1–2 times per year. The course responsible is [Richard Brooks (RIB)](https://rbrooksdk.github.io) who has been the only lecturer teaching the course.
 
 <center>
+  <strong>Grade Distribution 2024 (includes re-exams from 2023)</strong>
+  <br><br>
 
-**Grade Distribution 2024 (includes re-exams from 2023)**
-
-| Grade | Count |
-|:-----:|:-----:|
-| 12    | 1     |
-| 10    | 8     |
-| 7     | 15    |
-| 4     | 9     |
-| 02    | 2     |
-| 00    | 11    |
-| -3    | 1     |
-
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center;">Grade</th>
+        <th style="text-align:center;">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="text-align:center;">12</td><td style="text-align:center;">1</td></tr>
+      <tr><td style="text-align:center;">10</td><td style="text-align:center;">8</td></tr>
+      <tr><td style="text-align:center;">7</td><td style="text-align:center;">15</td></tr>
+      <tr><td style="text-align:center;">4</td><td style="text-align:center;">9</td></tr>
+      <tr><td style="text-align:center;">02</td><td style="text-align:center;">2</td></tr>
+      <tr><td style="text-align:center;">00</td><td style="text-align:center;">11</td></tr>
+      <tr><td style="text-align:center;">-3</td><td style="text-align:center;">1</td></tr>
+    </tbody>
+  </table>
 </center>
