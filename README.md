@@ -1,2 +1,109 @@
-# ALI1_25
-Repo for the Applied Linear Algebra Course @ VIA
+<p align="center">
+    <h1 align="center">Applied Linear Algebra - 2025</h1>
+    <p align="center">Repository for <a href="https://www.via.dk/TMH/Courses/applied-linear-algebra?education">ALI1-S25</a> at VIA</p>
+    <p align="center"><strong><a href="https://rbrooksdk.github.io/ALI1_25">Checkout the homepage!</a></strong></p>
+</p>
+
+<p align="center">
+  <a href="https://rbrooksdk.github.io/ALI1_25">
+    <video class="custom-video" width="600" autoplay loop muted>
+      <source src="figures/introvid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </a>
+</p>
+
+
+## :fontawesome-solid-circle-info:{ .fa-circle-info} Course information
+
+* Course responsible: Associate Professor [Richard Brooks](https://rbrooksdk.github.io), <rib@via.dk>
+* 5 ECTS (European Credit Transfer System), corresponding to 130 hours of work
+* 10 sessions, each with a duration of 4 lessons, starting in week 32
+* Bachelor level course
+* Grade: 7-step scale
+* Type of assessment: 4-hour written exam (see exam description in the menu to the left)
+
+## :fontawesome-solid-book:{ .fa-book-closed} Prerequisites
+It is important that you recap some of your high-school math. Most importantly:
+
+- Linear equations
+- Systems of linear equations
+- Vectors and vector operations
+- Differential equations
+
+## :fontawesome-solid-vector-square:{ .fa-vector-square} Lectures and course organization
+
+The course is scheduled to start Monday August 4 and will continue up until and including August 19. All sessions are from **8:20 to 11:50** in room **C03.12**, except the very first session which is from **8:20 to 14:20**. In general, each session is made up of four activities:
+
+1. At the beginning of each session, there will be a short recap of the previous session.
+2. We then go through the exercises from the previous session.
+3. We will go through the theory of the current session.
+4. After classes, and before the next session, you will have to solve exercises from the current session.
+
+This then loops back to (1) at the beginning of the next session.
+
+There are no mandatory assignments, but it is highly recommended to work on the exercises for each session. No instruction is provided for the exercises so you will have to work on them on your own or form study groups.
+
+## :fontawesome-solid-wave-square:{ .fa-wave-square} Course content and learning objectives
+Applied Linear Algebra focuses on understanding and applying the core concepts of linear algebra to solve real-world problems. The course explores vector spaces, matrices, eigenvalues, and eigenvectors, emphasising their practical applications in fields such as computer graphics, machine learning, and engineering. The course is designed to provide students with a solid foundation in linear algebra, enabling them to tackle complex problems and develop analytical skills.
+
+---
+
+**Learning Objectives**
+
+- **Vectors and Vector Spaces**: Understand the fundamental concepts of vectors, vector operations, and vector spaces. Learn to interpret vectors algebraically and geometrically, and reason about spans, bases, dimensions, and linear independence.
+- **Matrix Algebra**: Perform matrix operations including addition, multiplication, and inversion. Understand matrices as transformations and systems of linear equations, and learn to use matrices for practical problem solving.
+- **Determinants and Invertibility**: Compute determinants of matrices and understand their geometric and algebraic significance. Use determinants to assess matrix invertibility and to solve linear systems.
+- **Linear Transformations and Eigenanalysis**: Understand linear transformations through matrix multiplication. Learn to find eigenvalues and eigenvectors, diagonalise matrices when possible, and interpret eigenanalysis in practical contexts.
+- **Systems of Differential Equations**: Apply linear algebra techniques to solve systems of first-order differential equations. Understand the connection between eigenvalues, eigenvectors, and the behaviour of dynamic systems.
+- **Orthogonality and Least Squares**: Explore orthogonality in vector spaces, apply the Gram-Schmidt process, and solve least squares problems. Understand projections and their role in approximating inconsistent systems and fitting models to data.
+- **Symmetric Matrices, SVD, and PCA**: Analyse symmetric matrices, perform Singular Value Decomposition (SVD), and understand its application to data reduction and Principal Component Analysis (PCA).
+- **Applications of Linear Algebra**: Gain hands-on experience solving real-world problems by applying linear algebra techniques across disciplines such as engineering, computer science, and data analysis.
+
+
+
+## :fontawesome-solid-book-open:{ .fa-book-open} Resources
+
+Lay: Lay, David C. Linear Algebra and its applications, 4th edition. (e-book, up to students to retrieve a copy). All chapters and exercises referenced will be to the 4th edition. Make sure you have the correct edition or else the exercise numbers will not match.
+
+Note, for each lesson I have uploaded the presentations that accompany the book. I will in no way use these during classes and they are merely uploaded for your notes/convenience. The notes that I have uploaded are an electronic version of my personal lecture notes and contain most of the (relevant) material for the sections in questions.
+
+---
+
+Non-session specific resources such as the exercises from the book, solutions, old exam cases, etc. can be found her:
+
+[General Resources ALI]()
+
+This folder is always accessible in the menu to the left.
+
+---
+
+The Wiseflow code for all flows that are used during the course is always 0000. This is not the code for the actual exam in June, though.
+
+---
+
+Suggested online resources can be found in the menu to the left. These are not mandatory, but they can be useful for some students.
+
+---
+
+Make sure you install a working version of Jupyter Notebook and Python version 3.7 or higher. You can choose whichever IDE you want to work in as long as it can handle Jupyter Notebooks. Installing VS Code with a Jupyter Notebook extension seems to be a popular choice.
+
+## Historical Notes
+
+Applied Linear Algebra was first offered in 2014 and is scheduled to be taught 1–2 times per year. The course responsible is [Richard Brooks (RIB)](https://rbrooksdk.github.io) who has been the only lecturer teaching the course.
+
+<center>
+
+**Grade Distribution 2024 (includes re-exams from 2023)**
+
+| Grade | Count |
+|:-----:|:-----:|
+| 12    | 1     |
+| 10    | 8     |
+| 7     | 15    |
+| 4     | 9     |
+| 02    | 2     |
+| 00    | 11    |
+| -3    | 1     |
+
+</center>
