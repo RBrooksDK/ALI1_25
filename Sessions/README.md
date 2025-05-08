@@ -2,7 +2,8 @@
 
 Click on a session to the left (or below) to access a plan of a specific session and additional resources for that session. All sessions are scheduled from **8:20 to 11:50** in room **C03.12**, except the first session, which is from **8:20 to 14:20**. The sessions are as follows:
 
-<center>
+<div markdown="1" style="text-align:center;">
+
 
 | Session | Date                 | Topic                        |
 | ------- | :----:               | ---------------------------- |
@@ -17,5 +18,4 @@ Click on a session to the left (or below) to access a plan of a specific session
 | 09      | 14 Aug 08:20 – 11:50 | [Symmetric Matrices, SVD and PCA](/ALI1_25/09_Symmetric_Matrices_SVD_and_PCA/) |
 | 10      | 19 Aug 08:20 – 11:50 | [Recap and Conclusion](/ALI1_25/10_Recap_and_Conclusion/) |
 
-
-</center>
+</div>
