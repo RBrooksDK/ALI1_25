@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../figures/ali.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -1005,46 +1005,226 @@ T(x) = Ax &= \begin{bmatrix} 2 & -1 \\ 5 & 6 \end{bmatrix} \begin{bmatrix} 3 \\ 
 <div class="quiz" data-quiz-id="9"><h4>Question 10</h4><h3>If $A$ is an $m \times n$ matrix whose columns span $\mathbb{R}^m$, what must be true about the echelon form of $A$? (Revisiting concepts like Theorem 2 or 4 from Lay's book context)</h3><form><fieldset><div><input type="radio" name="answer-9" value="0" id="quiz-9-0" ><label for="quiz-9-0">$A$ has a pivot position in every column.</label></div><div><input type="radio" name="answer-9" value="1" id="quiz-9-1" ><label for="quiz-9-1">$A$ has $n$ rows.</label></div><div><input type="radio" name="answer-9" value="2" id="quiz-9-2" ><label for="quiz-9-2">The equation $Ax = \mathbf{0}$ has only the trivial solution.</label></div><div><input type="radio" name="answer-9" value="3" id="quiz-9-3" ><label for="quiz-9-3">$m < n$.</label></div><div><input type="radio" name="answer-9" value="4" id="quiz-9-4" correct><label for="quiz-9-4">$A$ has a pivot position in every row.</label></div></fieldset><button type="submit" class="quiz-button">Check Answer</button><div class="quiz-score-display" style="margin-top: 10px; font-weight: bold;">Score: <span class="quiz-current-score">0</span> / <span class="quiz-total-possible">1</span></div></form><section class="content hidden"><p><strong>Explanation:</strong> If the columns of an $m \times n$ matrix $A$ span $\mathbb{R}^m$, it means that for every $b$ in $\mathbb{R}^m$, the equation $Ax = b$ has a solution. This is equivalent to stating that matrix $A$ has a pivot position in every row (according to Theorem 4 in Lay, etc., or similar theorems). This ensures there's no row of zeros in the coefficient part of the augmented matrix $[A|b]$ that could lead to an inconsistency like $0=c$ where $c \neq 0$.</p></section></div>
 
 <hr />
+<!-- 
+1.2: 1, 7, 9, 11, 33   
+1.3: 11, 13, 14, 28     
+1.4: 6, 8, 11, 17, 18​   
+1.5: 7, 15, 23, 24 
+-->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
+
 <h2 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h2>
-<p><strong>Exercise 1</strong></p>
+<p><strong>Exercise 1</strong> (1.2.1)</p>
+<p>Determine which matrices are in reduced echelon form and which others are only in echelon form.</p>
+<ol>
+<li><span class="arithmatex">\(\left[\begin{array}{llll}1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; 1\end{array}\right]\)</span></li>
+<li><span class="arithmatex">\(\left[\begin{array}{llll}1 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{array}\right]\)</span></li>
+<li><span class="arithmatex">\(\left[\begin{array}{llll}1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1\end{array}\right]\)</span></li>
+<li><span class="arithmatex">\(\left[\begin{array}{lllll}1 &amp; 1 &amp; 0 &amp; 1 &amp; 1 \\ 0 &amp; 2 &amp; 0 &amp; 2 &amp; 2 \\ 0 &amp; 0 &amp; 0 &amp; 3 &amp; 3 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 4\end{array}\right]\)</span></li>
+</ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>Reduced echelon form</li>
+<li>Reduced echelon form</li>
+<li>Not echelon form</li>
+<li>Echelon form</li>
+</ol>
 </details>
-<p><strong>Exercise 2</strong></p>
+<p><strong>Exercise 2</strong> (1.2.7)</p>
+<p>Find the general solution of the given system.</p>
+<p><span class="arithmatex">\(\left[\begin{array}{llll}1 &amp; 3 &amp; 4 &amp; 7 \\ 3 &amp; 9 &amp; 7 &amp; 6\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\left\{
+  \begin{array}{l}
+    x_1 = -5 - 3 x_2 \\
+    x_2 \text{ is free } \\
+    x_3 = 3
+  \end{array}
+\right.
+\]</div>
 </details>
-<p><strong>Exercise 3</strong></p>
+<p><strong>Exercise 3</strong> (1.2.9)</p>
+<p>Find the general solution of the given system.</p>
+<p><span class="arithmatex">\(\left[\begin{array}{rrrr}0 &amp; 1 &amp; -2 &amp; 3 \\ 1 &amp; -3 &amp; 4 &amp; -6\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\left\{
+    \begin{array}{l}
+        x_1=3+2 x_3 \\
+        x_2=3+2 x_3 \\
+        x_3 \text { is free }
+    \end{array}\right.
+\]</div>
 </details>
-<p><strong>Exercise 4</strong></p>
+<p><strong>Exercise 4</strong> (1.2.11)</p>
+<p>Find the general solution of the given system.</p>
+<p><span class="arithmatex">\(\left[\begin{array}{rrrr}3 &amp; -2 &amp; 4 &amp; 0 \\ 9 &amp; -6 &amp; 12 &amp; 0 \\ 6 &amp; -4 &amp; 8 &amp; 0\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<div class="arithmatex">\[
+\left\{
+    \begin{array}{l}
+        x_1=\frac{2}{3} x_2-\frac{4}{3} x_3 \\
+        x_2 \text { is free } \\
+        x_3 \text { is free }
+    \end{array}\right.
+\]</div>
 </details>
-<p><strong>Exercise 5</strong></p>
+<p><strong>Exercise 5</strong> (1.2.33)</p>
+<p>Find the interpolating polynomial <span class="arithmatex">\(p(t)=a_0+a_1 t+a_2 t^2\)</span> for the data <span class="arithmatex">\((1,6),(2,15),(3,28)\)</span>. That is, find <span class="arithmatex">\(a_0, a_1\)</span>, and <span class="arithmatex">\(a_2\)</span> such that</p>
+<div class="arithmatex">\[
+\begin{aligned}
+&amp; a_0+a_1(1)+a_2(1)^2=6 \\
+&amp; a_0+a_1(2)+a_2(2)^2=15 \\
+&amp; a_0+a_1(3)+a_2(3)^2=28
+\end{aligned}
+\]</div>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>The polynomial is <span class="arithmatex">\(p(t)=1+3 t+2 t^2\)</span>.</p>
 </details>
-<p><strong>Exercise 6</strong></p>
+<p><strong>Exercise 6</strong> (1.3.11)</p>
+<p>Determine if <span class="arithmatex">\(\mathbf{b}\)</span> is a linear combination of <span class="arithmatex">\(\mathbf{a}_1, \mathbf{a}_2\)</span>, and <span class="arithmatex">\(\mathbf{a}_3\)</span>.</p>
+<p><span class="arithmatex">\(\mathbf{a}_1=\left[\begin{array}{r}1 \\ -2 \\ 0\end{array}\right], \mathbf{a}_2=\left[\begin{array}{l}0 \\ 1 \\ 2\end{array}\right], \mathbf{a}_3=\left[\begin{array}{r}5 \\ -6 \\ 8\end{array}\right], \mathbf{b}=\left[\begin{array}{r}2 \\ -1 \\ 6\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{b}\)</span> is a linear combination of <span class="arithmatex">\(\mathbf{a}_1, \mathbf{a}_2\)</span>, and <span class="arithmatex">\(\mathbf{a}_3\)</span>.</p>
 </details>
-<p><strong>Exercise 7</strong></p>
+<p><strong>Exercise 7</strong> (1.3.13)</p>
+<p>Determine if <span class="arithmatex">\(\mathbf{b}\)</span> is a linear combination of the vectors formed from the columns of the matrix <span class="arithmatex">\(A\)</span>.</p>
+<p><span class="arithmatex">\(A=\left[\begin{array}{rrr}1 &amp; -4 &amp; 2 \\ 0 &amp; 3 &amp; 5 \\ -2 &amp; 8 &amp; -4\end{array}\right], \mathbf{b}=\left[\begin{array}{r}3 \\ -7 \\ -3\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{b}\)</span> is not a linear combination of the columns of <span class="arithmatex">\(A\)</span>.</p>
 </details>
-<p><strong>Exercise 8</strong></p>
+<p><strong>Exercise 8</strong> (1.3.14)</p>
+<p>Determine if <span class="arithmatex">\(\mathbf{b}\)</span> is a linear combination of the vectors formed from the columns of the matrix <span class="arithmatex">\(A\)</span>.</p>
+<p><span class="arithmatex">\(A=\left[\begin{array}{rrr}1 &amp; 0 &amp; 5 \\ -2 &amp; 1 &amp; -6 \\ 0 &amp; 2 &amp; 8\end{array}\right], \mathbf{b}=\left[\begin{array}{r}2 \\ -1 \\ 6\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{b}\)</span> is a linear combination of the columns of <span class="arithmatex">\(A\)</span>.</p>
 </details>
-<p><strong>Exercise 9</strong></p>
+<p><strong>Exercise 9</strong> (1.3.28)</p>
+<p>A steam plant burns two types of coal: anthracite (A) and bituminous (B). For each ton of A burned, the plant produces 27.6 million Btu of heat, 3100 grams (g) of sulfur dioxide, and 250 g of particulate matter (solid-particle pollutants). For each ton of B burned, the plant produces 30.2 million Btu, 6400 g of sulfur dioxide, and 360 g of particulate matter.</p>
+<ol>
+<li>How much heat does the steam plant produce when it burns <span class="arithmatex">\(x_1\)</span> tons of A and <span class="arithmatex">\(x_2\)</span> tons of B ?</li>
+<li>Suppose the output of the steam plant is described by a vector that lists the amounts of heat, sulfur dioxide, and particulate matter. Express this output as a linear combination of two vectors, assuming that the plant burns <span class="arithmatex">\(x_1\)</span> tons of A and <span class="arithmatex">\(x_2\)</span> tons of B .</li>
+<li><span class="arithmatex">\([\mathbf{M}]\)</span> Over a certain time period, the steam plant produced 162 million Btu of heat, <span class="arithmatex">\(23,610 \mathrm{~g}\)</span> of sulfur dioxide, and 1623 g of particulate matter. Determine how many tons of each type of coal the steam plant must have burned. Include a vector equation as part of your solution.</li>
+</ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>The amount of heat produced when the steam plant burns <span class="arithmatex">\(x_1\)</span> tons of anthracite and <span class="arithmatex">\(x_2\)</span> tons of bituminous coal is <span class="arithmatex">\(27.6 x_1+30.2 x_2\)</span> million Btu.</li>
+<li>The total output produced by <span class="arithmatex">\(x_1\)</span> tons of anthracite and <span class="arithmatex">\(x_2\)</span> tons of bituminous coal is given by the vector <span class="arithmatex">\(x_1\left[\begin{array}{c}27.6 \\ 3100 \\ 250\end{array}\right]+x_2\left[\begin{array}{c}30.2 \\ 6400 \\ 360\end{array}\right]\)</span>.</li>
+<li>The steam plant burned <span class="arithmatex">\(3.9\)</span> tons of anthracite coal and <span class="arithmatex">\(1.8\)</span> tons of bituminous coal.</li>
+</ol>
 </details>
-<p><strong>Exercise 10</strong></p>
+<p><strong>Exercise 10</strong> (1.4.6)</p>
+<p>Use the definition of <span class="arithmatex">\(A \mathbf{x}\)</span> to write the matrix equation as a vector equation, or vice versa.</p>
+<ol>
+<li><span class="arithmatex">\(\left[\begin{array}{rr}2 &amp; -3 \\ 3 &amp; 2 \\ 8 &amp; -5 \\ -2 &amp; 1\end{array}\right]\left[\begin{array}{r}-3 \\ 5\end{array}\right]=\left[\begin{array}{r}-21 \\ 1 \\ -49 \\ 11\end{array}\right]\)</span></li>
+</ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(-3 \cdot\left[\begin{array}{r}2 \\ 3 \\ 8 \\ -2\end{array}\right]+5 \cdot\left[\begin{array}{r}-3 \\ 2 \\ -5 \\ 1\end{array}\right]=\left[\begin{array}{r}-21 \\ 1 \\ -49 \\ 11\end{array}\right]\)</span></p>
+</details>
+<p><strong>Exercise 11</strong> (1.4.8)</p>
+<p>Use the definition of <span class="arithmatex">\(A \mathbf{x}\)</span> to write the matrix equation as a vector equation, or vice versa.</p>
+<ol>
+<li><span class="arithmatex">\(z_1\left[\begin{array}{r}2 \\ -4\end{array}\right]+z_2\left[\begin{array}{r}-1 \\ 5\end{array}\right]+z_3\left[\begin{array}{r}-4 \\ 3\end{array}\right]+z_4\left[\begin{array}{l}0 \\ 2\end{array}\right]=\left[\begin{array}{r}5 \\ 12\end{array}\right]\)</span></li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\left[\begin{array}{rrrr}2 &amp; -1 &amp; -4 &amp; 0 \\ -4 &amp; 5 &amp; 3 &amp; 2\end{array}\right]\left[\begin{array}{l}z_1 \\ z_2 \\ z_3 \\ z_4\end{array}\right]=\left[\begin{array}{r}5 \\ 12\end{array}\right]\)</span></p>
+</details>
+<p><strong>Exercise 12</strong> (1.4.11)</p>
+<p>Given <span class="arithmatex">\(A\)</span> and <span class="arithmatex">\(\mathbf{b}\)</span>, write the augmented matrix for the linear system that corresponds to the matrix equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{b}\)</span>. Then solve the system and write the solution as a vector.</p>
+<p><span class="arithmatex">\(A=\left[\begin{array}{rrr}1 &amp; 3 &amp; -4 \\ 1 &amp; 5 &amp; 2 \\ -3 &amp; -7 &amp; 6\end{array}\right], \mathbf{b}=\left[\begin{array}{r}-2 \\ 4 \\ 12\end{array}\right]\)</span></p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{x}=\left[\begin{array}{l}x_1 \\ x_2 \\ x_3\end{array}\right]=\left[\begin{array}{r}-11 \\ 3 \\ 0\end{array}\right]\)</span></p>
+</details>
+<p><strong>Exercise 13</strong> (1.4.17, 1.4.18)</p>
+<p>Refer to the matrices <span class="arithmatex">\(A\)</span> and <span class="arithmatex">\(B\)</span> below. Make appropriate calculations that justify your answers and mention an appropriate theorem.</p>
+<div class="arithmatex">\[
+A=\left[\begin{array}{rrrr}
+1 &amp; 3 &amp; 0 &amp; 3 \\
+-1 &amp; -1 &amp; -1 &amp; 1 \\
+0 &amp; -4 &amp; 2 &amp; -8 \\
+2 &amp; 0 &amp; 3 &amp; -1
+\end{array}\right] \quad B=\left[\begin{array}{rrrr}
+1 &amp; 4 &amp; 1 &amp; 2 \\
+0 &amp; 1 &amp; 3 &amp; -4 \\
+0 &amp; 2 &amp; 6 &amp; 7 \\
+2 &amp; 9 &amp; 5 &amp; -7
+\end{array}\right]
+\]</div>
+<ol>
+<li>How many rows of <span class="arithmatex">\(A\)</span> contain a pivot position? Does the equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{b}\)</span> have a solution for each <span class="arithmatex">\(\mathbf{b}\)</span> in <span class="arithmatex">\(\mathbb{R}^4\)</span> ?</li>
+<li>Can every vector in <span class="arithmatex">\(\mathbb{R}^4\)</span> be written as a linear combination of the columns of the matrix <span class="arithmatex">\(B\)</span> above? Do the columns of <span class="arithmatex">\(B\)</span> span <span class="arithmatex">\(\mathbb{R}^3\)</span> ?</li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(A \mathbf{x}=\mathbf{b}\)</span> does not have a solution for each <span class="arithmatex">\(\mathbf{b}\)</span> in <span class="arithmatex">\(\mathbb{R}^4\)</span>.</li>
+<li>Not all vectors in <span class="arithmatex">\(\mathbb{R}^4\)</span> can be written as a linear combination of the columns of <span class="arithmatex">\(B\)</span>. The columns of <span class="arithmatex">\(B\)</span> certainly do not span <span class="arithmatex">\(\mathbb{R}^3\)</span>.</li>
+</ol>
+</details>
+<p><strong>Exercise 14</strong> (1.5.7)</p>
+<p>Describe all solutions of <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span> in parametric vector form, where <span class="arithmatex">\(A\)</span> is row equivalent to the given matrix.</p>
+<p><span class="arithmatex">\(\left[\begin{array}{llll}1 &amp; 3 &amp; -3 &amp; 7 \\ 0 &amp; 1 &amp; -4 &amp; 5\end{array}\right]\)</span></p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{x}=\left[\begin{array}{l}x_1 \\ x_2 \\ x_3 \\ x_4\end{array}\right]=\left[\begin{array}{c}-9 x_3+8 x_4 \\ 4 x_3-5 x_4 \\ x_3 \\ x_4\end{array}\right]=\left[\begin{array}{c}-9 x_3 \\ 4 x_3 \\ x_3 \\ 0\end{array}\right]+\left[\begin{array}{c}8 x_4 \\ -5 x_4 \\ 0 \\ x_4\end{array}\right]=x_3\left[\begin{array}{r}-9 \\ 4 \\ 1 \\ 0\end{array}\right]+x_4\left[\begin{array}{r}8 \\ -5 \\ 0 \\ 1\end{array}\right]\)</span></p>
+</details>
+<p><strong>Exercise 15</strong> (1.5.15)</p>
+<p>Describe and compare the solution sets of <span class="arithmatex">\(x_1+5 x_2-\)</span> <span class="arithmatex">\(3 x_3=0\)</span> and <span class="arithmatex">\(x_1+5 x_2-3 x_3=-2\)</span>.</p>
+<details class="answer">
+<summary>&nbsp;</summary>
+<p>The solution set of the homogeneous equation is the plane through the origin in <span class="arithmatex">\(\mathbf{R}^3\)</span> spanned by <span class="arithmatex">\(\mathbf{u}\)</span> and <span class="arithmatex">\(\mathbf{v}\)</span>. The solution set of the nonhomogeneous equation is parallel to this plane and passes through the point <span class="arithmatex">\(\mathbf{p}=\left[\begin{array}{r}-2 \\ 0 \\ 0\end{array}\right]\)</span>.</p>
+</details>
+<p><strong>Exercise 16</strong> (1.5.23)</p>
+<p>Mark each statement True or False. Justify each answer.</p>
+<ol>
+<li>A homogeneous equation is always consistent.</li>
+<li>The equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span> gives an explicit description of its solution set.</li>
+<li>The homogeneous equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span> has the trivial solution if and only if the equation has at least one free variable.</li>
+<li>The equation <span class="arithmatex">\(\mathbf{x}=\mathbf{p}+t \mathbf{v}\)</span> describes a line through <span class="arithmatex">\(\mathbf{v}\)</span> parallel to <span class="arithmatex">\(\mathbf{p}\)</span>.</li>
+<li>The solution set of <span class="arithmatex">\(A \mathbf{x}=\mathbf{b}\)</span> is the set of all vectors of the form <span class="arithmatex">\(\mathbf{w}=\mathbf{p}+\mathbf{v}_h\)</span>, where <span class="arithmatex">\(\mathbf{v}_h\)</span> is any solution of the equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span>.</li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li>True. See the first paragraph of the subsection titled Homogeneous Linear Systems.</li>
+<li>False. The equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span> gives an implicit description of its solution set. See the subsection entitled Parametric Vector Form.</li>
+<li>False. The equation Ax =0 always has the trivial solution. The box before Example 1 uses the word nontrivial instead of trivial.</li>
+<li>False. The line goes through <span class="arithmatex">\(\mathbf{p}\)</span> parallel to <span class="arithmatex">\(\mathbf{v}\)</span>. See the paragraph that precedes Fig. 5.</li>
+<li>False. The solution set could be empty! The statement (from Theorem 6) is true only when there exists a vector <span class="arithmatex">\(\mathbf{p}\)</span> such that <span class="arithmatex">\(A \mathbf{p}=\mathbf{b}\)</span>.</li>
+</ol>
+</details>
+<p><strong>Exercise 17</strong> (1.5.24)</p>
+<p>Mark each statement True or False. Justify each answer.</p>
+<ol>
+<li>A homogeneous system of equations can be inconsistent.</li>
+<li>If <span class="arithmatex">\(\mathbf{x}\)</span> is a nontrivial solution of <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span>, then every entry in <span class="arithmatex">\(\mathbf{x}\)</span> is nonzero.</li>
+<li>The effect of adding <span class="arithmatex">\(\mathbf{p}\)</span> to a vector is to move the vector in a direction parallel to <span class="arithmatex">\(\mathbf{p}\)</span>.</li>
+<li>The equation <span class="arithmatex">\(A \mathbf{x}=\mathbf{b}\)</span> is homogeneous if the zero vector is a solution.</li>
+</ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li>False. The trivial solution is always a solution to a homogeneous system of linear equations.</li>
+<li>False. A nontrivial solution of <span class="arithmatex">\(A \mathbf{x}=\mathbf{0}\)</span> is any nonzero <span class="arithmatex">\(\mathbf{x}\)</span> that satisfies the equation. See the sentence before Example 2.</li>
+<li>True. See the paragraph following Example 3.</li>
+<li>True. If the zero vector is a solution, then <span class="arithmatex">\(\mathbf{b}=A \mathbf{x}=A \mathbf{0}=\mathbf{0}\)</span>.</li>
+<li>True. See Theorem 6.</li>
+</ol>
 </details>
             <div id="quiz-total-score-summary" style="margin-top: 20px; padding: 10px; border-top: 1px solid #ccc;">
                 <h3>Total Score Summary</h3>
@@ -1400,10 +1580,10 @@ document.querySelectorAll('.quiz').forEach((quiz) => {
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.prune", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.prune", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
       
