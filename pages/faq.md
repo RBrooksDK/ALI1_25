@@ -99,3 +99,6 @@
 
 ??? question "What is the Wiseflow code?"
     The Wiseflow code for the course is 0000. However, at the exam you will be given specific codes.
+
+??? question "What does **[M]** mean in the exercises?"
+    The **[M]** means that you are supposed to solve the exercise using Matlab. Disregard this and use Python.

@@ -66,7 +66,7 @@ Applied Linear Algebra focuses on understanding and applying the core concepts o
 
 Lay: Lay, David C. Linear Algebra and its applications, 4th edition. (e-book, up to students to retrieve a copy). All chapters and exercises referenced will be to the 4th edition. Make sure you have the correct edition or else the exercise numbers will not match.
 
-Note, for each lesson I have uploaded the presentations that accompany the book. I will in no way use these during classes and they are merely uploaded for your notes/convenience. The notes that I have uploaded are an electronic version of my personal lecture notes and contain most of the (relevant) material for the sections in questions.
+Note, for each lesson I have uploaded the presentations that accompany the book. I will in no way use these during classes and they are merely uploaded for your notes/convenience. The notes that I have uploaded are an electronic version of my personal lecture notes and contain most of the (relevant) material for the sections in questions. Since some of the exercises are from the book, you may see **[M]** associated with exercises. This means that you are supposed to solve the exercise using Matlab. Disregard this and use Python.
 
 ---
 
