@@ -27,7 +27,13 @@ Understanding the set of all eigenvectors for a specific eigenvalue (the "eigens
 * Diagonalization
 * Matrix Similarity
 
----
+!!! tip "Learning Objectives"
+
+    - Define and compute eigenvalues and eigenvectors for matrices.
+    - Solve the characteristic equation and construct eigenspaces.
+    - Diagonalize matrices and explain the process of similarity transformation.
+    - Analyze the significance of eigenvalues and eigenvectors in matrix transformations.
+    - Apply diagonalization to simplify matrix computations and interpret results.
 
 ## Exercises
 

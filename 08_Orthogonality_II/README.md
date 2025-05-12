@@ -21,13 +21,17 @@ Then, we'll tackle a super common problem in real-world data: what do you do whe
 
 * Gram-Schmidt Process
 * Orthogonalization
-* QR Factorization
 * Least Squares
 * Inconsistent Systems
 * Projections
 * Data Fitting
 
----
+!!! tip "Learning Objectives"
+
+    - Apply the Gram-Schmidt process to construct orthogonal and orthonormal bases.
+    - Solve least-squares problems and interpret best-fit solutions.
+    - Analyze projections and their role in data fitting and inconsistent systems.
+    - Connect orthogonality concepts to practical applications in modeling and data analysis.
 
 ## Exercises
 

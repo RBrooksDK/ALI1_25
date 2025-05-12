@@ -75,6 +75,7 @@ plugins:
 
 # Extensions
 markdown_extensions:
+  - admonition
   - abbr
   - attr_list
   - def_list

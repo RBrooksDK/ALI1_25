@@ -15,7 +15,7 @@ Lay: 3.1-3.3
 
 ## Session Description
 
-This session introduces the concept of the **determinant** of a matrix. We will start by defining and learning how to compute the determinant for **2x2 matrices**, and then extend this to **3x3 matrices** and  **$n \times n$ matrices**, using a systematic method.
+This session introduces the concept of the **determinant** of a matrix. We will start by defining and learning how to compute the determinant for **$2 \times 2$ matrices**, and then extend this to **$3 \times 3$ matrices** and  **$n \times n$ matrices**, using a systematic method.
 
 We will explore the **basic properties** of the determinant, including how row operations affect its value. A central result that will be highlighted is the **relationship between the determinant and a matrix's invertibility** – a matrix is invertible if and only if its determinant is non-zero.
 
@@ -30,7 +30,13 @@ Depending on the precise content of the sections, we may also touch upon the **g
 *   Determinant and Invertibility
 *   Geometric Interpretation (Area/Volume)
 
----
+!!! tip "Learning Objectives"
+
+    - Compute determinants of $2 \times 2$, $3 \times 3$, and $n \times n$ matrices using systematic methods.
+    - Apply properties of determinants to simplify calculations and understand matrix behavior.
+    - Relate the determinant to matrix invertibility and solve related problems.
+    - Interpret the geometric meaning of determinants in terms of area and volume.
+    - Analyze the effect of row operations on the determinant.
 
 ## Exercises
 

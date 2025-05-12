@@ -26,7 +26,13 @@ A crucial concept we'll build up to is finding the most efficient way to describ
 * Dimension
 * Rank
 
----
+!!! tip "Learning Objectives"
+
+    - Define and identify vector spaces and subspaces.
+    - Determine and construct the null space and column space of a matrix.
+    - Construct and use a basis to describe vector spaces and coordinate systems.
+    - Calculate the dimension and rank of vector spaces and matrices.
+    - Analyze the relationship between basis, dimension, and solutions to linear systems.
 
 ## Exercises
 

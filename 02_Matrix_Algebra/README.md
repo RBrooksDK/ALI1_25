@@ -24,13 +24,21 @@ We’ll finish with the Invertible Matrix Theorem (Theorem 8), which ties togeth
 
 * Matrix Operations
 * Matrix Multiplication
-* Special Matrices
+* Special Matrices: Zero, Identity, Diagonal
+* Matrix Powers
 * Matrix Transpose
-* Matrix Inverse
 * Invertible Matrices
 * Invertible Matrix Theorem
 * Matrix Algebra
   
+!!! tip "Learning Objectives"
+
+    - Perform matrix addition, scalar multiplication, and matrix multiplication using the row-column rule.
+    - Identify and use special matrices (zero, identity, diagonal) and their properties.
+    - Compute and interpret matrix inverses and transposes.
+    - Apply the Invertible Matrix Theorem
+    - Analyze and solve problems using matrix algebra concepts.
+
 ---
 
 ## Exercises

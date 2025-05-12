@@ -25,6 +25,15 @@ Next, we introduce vectors: linear combinations, spans, and how vector equations
  - Span
  - Linear Dependence
  - Linear Transformations
+
+!!! tip "Learning Objectives"
+
+    - Identify and represent linear systems using matrices.
+    - Apply row reduction techniques to solve linear systems.
+    - Describe and construct vectors, spans, and linear combinations.
+    - Distinguish and determine linear dependence and independence in sets of vectors.
+    - Analyze and interpret linear transformations and their relationship with matrices.
+
 ---
 
 ## Quiz

@@ -22,12 +22,16 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 
 * Inner Product / Dot Product
 * Vector Length and Distance
-* Orthogonal Vectors
-* Orthogonal Complements
-* Orthogonal Sets
-* Orthogonal Bases
-* Orthogonal Projection
+* Orthogonal Vectors, Complements, Sets, Bases, and Projection
 * Best Approximation
+
+!!! tip "Learning Objectives"
+
+    - Compute inner products, vector lengths, and distances in vector spaces.
+    - Identify and construct orthogonal and orthonormal sets and bases.
+    - Determine orthogonal complements and analyze their properties.
+    - Apply orthogonal projection to find best approximations in subspaces.
+    - Interpret the geometric meaning of orthogonality in linear algebra.
 
 ---
 

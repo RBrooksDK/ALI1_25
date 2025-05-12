@@ -27,6 +27,14 @@ We'll focus on understanding how these concepts help us find the general solutio
 * Solution Structure
 * Exponential Solutions
 
+!!! tip "Learning Objectives"
+
+    - Model and solve systems of linear differential equations using matrix methods.
+    - Apply eigenvalues and eigenvectors to construct general solutions.
+    - Interpret the role of exponential solutions in dynamic systems.
+    - Analyze the structure of solutions for linear differential equations.
+    - Connect linear algebra concepts to real-world applications in science and engineering.
+
 ---
 
 ## Exercises

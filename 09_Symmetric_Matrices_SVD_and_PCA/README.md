@@ -24,10 +24,16 @@ Then, we move to a factorization that applies to *any* matrix, not just square o
 * Orthogonal Diagonalization
 * Spectral Theorem
 * Singular Value Decomposition (SVD)
-* Singular Values
-* Singular Vectors
 * Applications of SVD
 * Pseudoinverse
+
+!!! tip "Learning Objectives"
+
+    - Identify and analyze properties of symmetric matrices and their diagonalization.
+    - Apply the Spectral Theorem to orthogonally diagonalize matrices.
+    - Perform and interpret Singular Value Decomposition (SVD) for general matrices.
+    - Relate singular values and vectors to the structure of linear transformations.
+    - Apply SVD and the pseudoinverse to solve problems in data analysis and engineering.
 
 ---
 
