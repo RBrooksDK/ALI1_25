@@ -18,7 +18,7 @@
 
 * Course responsible: Associate Professor [Richard Brooks](https://rbrooksdk.github.io), <rib@via.dk>
 * 5 ECTS (European Credit Transfer System), corresponding to 130 hours of work
-* 10 sessions, each with a duration of 4 lessons, starting in week 32
+* 10 sessions, each with a duration of 4 lessons (except the first session), starting in week 32
 * Bachelor level course
 * Grade: 7-step scale
 * Type of assessment: 4-hour written exam (see exam description in the menu to the left)
