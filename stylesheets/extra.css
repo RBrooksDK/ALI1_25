@@ -62,9 +62,10 @@
 .md-typeset .admonition.answer,
 .md-typeset details.answer,
 .md-typeset .admonition.question,
-.md-typeset details.question {
-  /* Use the defined primary-fg-color--light for border */
-  border-color: var(--md-primary-fg-color--light); /* This correctly uses #2A9DF4 */
+.md-typeset details.question,
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--md-matrix-glow-color);
   outline: none;
   box-shadow: none;
 }
@@ -72,11 +73,11 @@
 .md-typeset .answer > .admonition-title,
 .md-typeset .answer > summary,
 .md-typeset .question > .admonition-title,
-.md-typeset .question > summary {
-  /* FIXED: Use the literal RGB values for #2A9DF4 */
+.md-typeset .question > summary,
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
   background-color: rgba(42, 157, 244, 0.1);
-  /* Title text color matches border */
-  color: var(--md-primary-fg-color--light); /* This correctly uses #2A9DF4 */
+  color: var(--md-matrix-glow-color);
   outline: none;
   box-shadow: none;
 }
@@ -85,8 +86,10 @@
 .md-typeset .answer > .admonition-title::before,
 .md-typeset .answer > summary::before,
 .md-typeset .question > .admonition-title::before,
-.md-typeset .question > summary::before {
-  background-color: var(--md-primary-fg-color--light); /* This correctly uses #2A9DF4 */
+.md-typeset .question > summary::before,
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: var(--md-matrix-glow-color);
 }
 .md-typeset .answer > .admonition-title::before,
 .md-typeset .answer > summary::before {
@@ -94,12 +97,20 @@
            mask-image: var(--md-admonition-icon--success);
 }
 
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+   -webkit-mask-image: var(--md-admonition-icon--tip);
+           mask-image: var(--md-admonition-icon--tip);
+}
+
 /* Indicator matches border/title text */
 .md-typeset details[open].answer summary::after,
 .md-typeset details.answer summary::after,
 .md-typeset details[open].question summary::after,
-.md-typeset details.question summary::after {
-  color: var(--md-primary-fg-color--light); /* This correctly uses #2A9DF4 */
+.md-typeset details.question summary::after,
+.md-typeset details[open].tip summary::after,
+.md-typeset details.tip summary::after {
+  color: var(--md-matrix-glow-color);
 }
 .md-header__button.md-logo {
   margin-top: 0;
