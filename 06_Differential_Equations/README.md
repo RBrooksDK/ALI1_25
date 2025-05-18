@@ -39,6 +39,10 @@ We'll focus on understanding how these concepts help us find the general solutio
 
 ## Exercises
 
+<!--
+5.7: 1-8, 15, 16, 19, 20 
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

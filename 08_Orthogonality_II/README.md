@@ -35,6 +35,12 @@ Then, we'll tackle a super common problem in real-world data: what do you do whe
 
 ## Exercises
 
+<!--
+6.4: 1, 6 12, 24
+6.5: 1, 3, 5, 7, 12, 25
+6.6: 3, 4, 7, 13 
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

@@ -36,6 +36,13 @@ A crucial concept we'll build up to is finding the most efficient way to describ
 
 ## Exercises
 
+<!--
+4.2.: 2-6, 17-20, 24
+4.3.: 9-10, 13, 17, 18, 36        
+4.5: 6, 11, 14, 17      
+4.6: 2, 4, 35     
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

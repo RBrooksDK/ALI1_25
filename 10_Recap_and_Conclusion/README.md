@@ -27,6 +27,10 @@ This session is purely dedicated to *you*. It's a recap and Q&A session. Bring q
 
 ## Exercises
 
+<!--
+Do old exam cases
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

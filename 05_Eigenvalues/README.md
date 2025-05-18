@@ -37,6 +37,12 @@ Understanding the set of all eigenvectors for a specific eigenvalue (the "eigens
 
 ## Exercises
 
+<!--
+​​5.1: 1, 3, 5, 7, 13, 16, 40  
+5.2: 1, 3, 6, 10, 11  
+5.3: 1, 6, 10-14, 35, 36   
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

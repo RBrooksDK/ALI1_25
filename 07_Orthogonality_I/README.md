@@ -37,6 +37,13 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 
 ## Exercises
 
+<!--
+"Do this exercise first.pdf" 
+6.1: 1, 11, 13, 15-18  
+6.2: 1, 9, 12, 21, 35      
+6.3: 1, 3, 7, 13, 17 
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

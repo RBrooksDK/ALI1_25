@@ -40,6 +40,11 @@ Depending on the precise content of the sections, we may also touch upon the **g
 
 ## Exercises
 
+<!--
+​​​3.1: 1, 2, 9, 43   
+3.2: 1, 2, 15-20, 25 
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"

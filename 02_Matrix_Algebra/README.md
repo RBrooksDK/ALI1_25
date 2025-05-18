@@ -43,6 +43,15 @@ We’ll finish with the Invertible Matrix Theorem (Theorem 8), which ties togeth
 
 ## Exercises
 
+<!-- 
+1.7: 11, 15-20, 41​​​  
+1.8: 3-6, 10  
+1.9: 15      
+2.1: 1, 2, 10, 13, 40, 41   
+2.2: 9, 30, 31, 32   
+​2.3: 11, 12, 15, 17  
+-->
+
 **Exercise 1**
 
 ??? answer "&nbsp;"
