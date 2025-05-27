@@ -38,7 +38,7 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 ## Exercises
 
 <!--
-"Do this exercise first.pdf" 
+"Do this exercise first.pdf" // NOTE: I couldn't find this file
 6.1: 1, 11, 13, 15-18  
 6.2: 1, 9, 12, 21, 35      
 6.3: 1, 3, 7, 13, 17 
@@ -72,6 +72,8 @@ $$
 $\mathbf{u} \cdot \mathbf{u}, \mathbf{v} \cdot \mathbf{u}$, and $\frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}$
 
 ??? answer "&nbsp;"
+    $\mathbf{u} \cdot \mathbf{u}=(-1)^2+2^2=5, \mathbf{v} \cdot \mathbf{u}=4(-1)+6(2)=8$, and $\frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}=\frac{8}{5}$.
+
 
 **Exercise 2** (6.1.11)
 
@@ -80,12 +82,14 @@ Find a unit vector in the direction of the given vector.
 $\left[\begin{array}{c}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]$
 
 ??? answer "&nbsp;"
+    $\frac{1}{\sqrt{(7 / 4)^2+(1 / 2)^2+1^2}}\left[\begin{array}{r}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]=\frac{1}{\sqrt{69 / 16}}\left[\begin{array}{r}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]=\left[\begin{array}{l}7 / \sqrt{69} \\ 2 / \sqrt{69} \\ 4 / \sqrt{69}\end{array}\right]$
 
 **Exercise 3** (6.1.13)
 
 Find the distance between $\mathbf{x}=\left[\begin{array}{r}10 \\ -3\end{array}\right]$ and $\mathbf{y}=\left[\begin{array}{l}-1 \\ -5\end{array}\right]$.
 
 ??? answer "&nbsp;"
+    Since $\mathbf{x}=\left[\begin{array}{c}10 \\ -3\end{array}\right]$ and $\mathbf{y}=\left[\begin{array}{l}-1 \\ -5\end{array}\right],\|\mathbf{x}-\mathbf{y}\|^2=[10-(-1)]^2+[-3-(-5)]^2=125$ and $\operatorname{dist}(\mathbf{x}, \mathbf{y})=\sqrt{125}=5 \sqrt{5}$.
 
 **Exercise 4** (6.1.15-6.1.18)
 
@@ -97,6 +101,10 @@ Determine which pairs of vectors in the following exercises are orthogonal.
 18. $\mathbf{y}=\left[\begin{array}{r}-3 \\ 7 \\ 4 \\ 0\end{array}\right], \mathbf{z}=\left[\begin{array}{r}1 \\ -8 \\ 15 \\ -7\end{array}\right]$
 
 ??? answer "&nbsp;"
+    15. Since $\mathbf{a} \cdot \mathbf{b}=8(-2)+(-5)(-3)=-1 \neq 0, \mathbf{a}$ and $\mathbf{b}$ are not orthogonal.
+    16. Since $\mathbf{u} \cdot \mathbf{v}=12(2)+(3)(-3)+(-5)(3)=0, \mathbf{u}$ and $\mathbf{v}$ are orthogonal.
+    17. Since $\mathbf{u} \cdot \mathbf{v}=3(-4)+2(1)+(-5)(-2)+0(6)=0, \mathbf{u}$ and $\mathbf{v}$ are orthogonal.
+    18. Since $\mathbf{y} \cdot \mathbf{z}=(-3)(1)+7(-8)+4(15)+0(-7)=1 \neq 0, \mathbf{y}$ and $\mathbf{z}$ are not orthogonal.
 
 **Exercise 5** (6.2.1)
 
@@ -105,6 +113,7 @@ Determine whether the set of vectors is orthogonal.
 $\left[\begin{array}{r}-1 \\ 4 \\ -3\end{array}\right],\left[\begin{array}{l}5 \\ 2 \\ 1\end{array}\right],\left[\begin{array}{r}3 \\ -4 \\ -7\end{array}\right]$
 
 ??? answer "&nbsp;"
+    Since $\left[\begin{array}{r}-1 \\ 4 \\ -3\end{array}\right] \cdot\left[\begin{array}{r}3 \\ -4 \\ -7\end{array}\right]=2 \neq 0$, the set is not orthogonal.
 
 **Exercise 6** (6.2.9)
 
@@ -113,12 +122,18 @@ Show that $\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ or $\left\{\mathbf{u}_1, \
 $\mathbf{u}_1=\left[\begin{array}{l}1 \\ 0 \\ 1\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 4 \\ 1\end{array}\right], \mathbf{u}_3=\left[\begin{array}{r}2 \\ 1 \\ -2\end{array}\right]$, and $\mathbf{x}=\left[\begin{array}{r}8 \\ -4 \\ -3\end{array}\right]$
 
 ??? answer "&nbsp;"
+    Since $\mathbf{u}_1 \cdot \mathbf{u}_2=\mathbf{u}_1 \cdot \mathbf{u}_3=\mathbf{u}_2 \cdot \mathbf{u}_3=0,\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ is an orthogonal set. Since the vectors are non-zero, $\mathbf{u}_1, \mathbf{u}_2$, and $\mathbf{u}_3$ are linearly independent by Theorem 4. Three such vectors in $\mathbb{R}^3$ automatically form a basis for $\mathbb{R}^3$. So $\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ is an orthogonal basis for $\mathbb{R}^3$. By Theorem 5,
+
+    $$
+    \mathbf{x}=\frac{\mathbf{x} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{x} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2+\frac{\mathbf{x} \cdot \mathbf{u}_3}{\mathbf{u}_3 \cdot \mathbf{u}_3} \mathbf{u}_3=\frac{5}{2} \mathbf{u}_1-\frac{3}{2} \mathbf{u}_2+2 \mathbf{u}_3
+    $$
 
 **Exercise 7** (6.2.12)
 
 Compute the orthogonal projection of $\left[\begin{array}{r}1 \\ -1\end{array}\right]$ onto the line through $\left[\begin{array}{r}-1 \\ 3\end{array}\right]$ and the origin.
 
 ??? answer "&nbsp;"
+    $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}=-\frac{2}{5} \mathbf{u}=\left[\begin{array}{r}2 / 5 \\ -6 / 5\end{array}\right]$
 
 **Exercise 8** (6.2.21)
 
@@ -127,6 +142,7 @@ Determine whether the set of vectors is orthonormal. If the set is only orthogon
 $\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}3 / \sqrt{10} \\ -1 / \sqrt{20} \\ -1 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}0 \\ -1 / \sqrt{2} \\ 1 / \sqrt{2}\end{array}\right]$
 
 ??? answer "&nbsp;"
+    Let $\mathbf{u}=\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array}\right], \mathbf{v}=\left[\begin{array}{r}3 / \sqrt{10} \\ -1 / \sqrt{20} \\ -1 / \sqrt{20}\end{array}\right]$, and $\mathbf{w}=\left[\begin{array}{r}0 \\ -1 / \sqrt{2} \\ 1 / \sqrt{2}\end{array}\right]$. Since $\mathbf{u} \cdot \mathbf{v}=\mathbf{u} \cdot \mathbf{w}=\mathbf{v} \cdot \mathbf{w}=0,\{\mathbf{u}, \mathbf{v}, \mathbf{w}\}$ is an orthogonal set. Also, $\|\mathbf{u}\|^2=\mathbf{u} \cdot \mathbf{u}=1,\|\mathbf{v}\|^2=\mathbf{v} \cdot \mathbf{v}=1$, and $\|\mathbf{w}\|^2=\mathbf{w} \cdot \mathbf{w}=1$, so $\{\mathbf{u}, \mathbf{v}, \mathbf{w}\}$ is an orthonormal set.
 
 **Exercise 9** (6.2.35)
 
@@ -135,6 +151,7 @@ $\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array
 $A=\left[\begin{array}{rrrr}-6 & -3 & 6 & 1 \\ -1 & 2 & 1 & -6 \\ 3 & 6 & 3 & -2 \\ 6 & -3 & 6 & -1 \\ 2 & -1 & 2 & 3 \\ -3 & 6 & 3 & 2 \\ -2 & -1 & 2 & -3 \\ 1 & 2 & 1 & 6\end{array}\right]$
 
 ??? answer "&nbsp;"
+    [M] One can compute that $A^T A=100 I_4$. Since the off-diagonal entries in $A^T A$ are zero, the columns of $A$ are orthogonal.
 
 **Exercise 10** (6.3.1)
 
@@ -146,6 +163,7 @@ Write $\mathbf{x}$ as the sum of two vectors, one in
 $\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ and the other in Span $\left\{\mathbf{u}_4\right\}$.
 
 ??? answer "&nbsp;"
+    $\mathbf{x}-\frac{\mathbf{x} \cdot \mathbf{u}_4}{\mathbf{u}_4 \cdot \mathbf{u}_4} \mathbf{u}_4=\left[\begin{array}{r}10 \\ -8 \\ 2 \\ 0\end{array}\right]-\left[\begin{array}{r}10 \\ -6 \\ -2 \\ 2\end{array}\right]=\left[\begin{array}{r}0 \\ -2 \\ 4 \\ -2\end{array}\right]$
 
 **Exercise 11** (6.3.3)
 
@@ -154,6 +172,24 @@ Verify that $\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ is an orthogonal set, an
 $\mathbf{y}=\left[\begin{array}{r}-1 \\ 4 \\ 3\end{array}\right], \mathbf{u}_1=\left[\begin{array}{l}1 \\ 1 \\ 0\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 1 \\ 0\end{array}\right]$
 
 ??? answer "&nbsp;"
+    Since $\mathbf{u}_1 \cdot \mathbf{u}_2=-1+1+0=0,\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ is an orthogonal set. The orthogonal projection of $\mathbf{y}$ onto $\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ is
+
+    $$
+    \hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{y} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2=\frac{3}{2} \mathbf{u}_1+\frac{5}{2} \mathbf{u}_2=\frac{3}{2}\left[\begin{array}{l}
+    1 \\
+    1 \\
+    0
+    \end{array}\right]+\frac{5}{2}\left[\begin{array}{r}
+    -1 \\
+    1 \\
+    0
+    \end{array}\right]=\left[\begin{array}{r}
+    -1 \\
+    4 \\
+    0
+    \end{array}\right]
+    $$
+
 
 **Exercise 12** (6.3.7)
 
@@ -162,6 +198,7 @@ Let $W$ be the subspace spanned by the $\mathbf{u}$ 's, and write $y$ as the sum
 $\mathbf{y}=\left[\begin{array}{l}1 \\ 3 \\ 5\end{array}\right], \mathbf{u}_1=\left[\begin{array}{r}1 \\ 3 \\ -2\end{array}\right], \mathbf{u}_2=\left[\begin{array}{l}5 \\ 1 \\ 4\end{array}\right]$
 
 ??? answer "&nbsp;"
+    $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{y} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2=0 \mathbf{u}_1+\frac{2}{3} \mathbf{u}_2=\left[\begin{array}{r}10 / 3 \\ 2 / 3 \\ 8 / 3\end{array}\right], \mathbf{z}=\mathbf{y}-\hat{\mathbf{y}}=\left[\begin{array}{r}-7 / 3 \\ 7 / 3 \\ 7 / 3\end{array}\right]$
 
 **Exercise 13** (6.3.13)
 
@@ -170,6 +207,7 @@ Find the best approximation to $\mathbf{z}$ by vectors of the form $c_1 \mathbf{
 $\mathbf{z}=\left[\begin{array}{r}3 \\ -7 \\ 2 \\ 3\end{array}\right], \mathbf{v}_1=\left[\begin{array}{r}2 \\ -1 \\ -3 \\ 1\end{array}\right], \mathbf{v}_2=\left[\begin{array}{r}1 \\ 1 \\ 0 \\ -1\end{array}\right]$
 
 ??? answer "&nbsp;"
+    $\hat{\mathbf{z}}=\frac{\mathbf{z} \cdot \mathbf{v}_1}{\mathbf{v}_1 \cdot \mathbf{v}_1} \mathbf{v}_1+\frac{\mathbf{z} \cdot \mathbf{v}_2}{\mathbf{v}_2 \cdot \mathbf{v}_2} \mathbf{v}_2=\frac{2}{3} \mathbf{v}_1-\frac{7}{3} \mathbf{v}_2=\left[\begin{array}{c}-1 \\ -3 \\ -2 \\ 3\end{array}\right]$
 
 **Exercise 14** (6.3.17)
 
@@ -178,3 +216,7 @@ $W=\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$.
 
 1. Let $U=\left[\begin{array}{ll}\mathbf{u}_1 & \mathbf{u}_2\end{array}\right]$. Compute $U^T U$ and $U U^T$.
 2. Compute $\operatorname{proj}_W \mathbf{y}$ and $\left(U U^T\right) \mathbf{y}$.
+
+??? answer "&nbsp;"
+    1. $U^T U=\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right], U U^T=\left[\begin{array}{rrr}8 / 9 & -2 / 9 & 2 / 9 \\ -2 / 9 & 5 / 9 & 4 / 9 \\ 2 / 9 & 4 / 9 & 5 / 9\end{array}\right]$
+    2. Since $U^T U=I_2$, the columns of $U$ form an orthonormal basis for $W$, and by Theorem 10 $\operatorname{proj}_W \mathbf{y}=U U^T \mathbf{y}=\left[\begin{array}{rrr}8 / 9 & -2 / 9 & 2 / 9 \\ -2 / 9 & 5 / 9 & 4 / 9 \\ 2 / 9 & 4 / 9 & 5 / 9\end{array}\right]\left[\begin{array}{l}4 \\ 8 \\ 1\end{array}\right]=\left[\begin{array}{l}2 \\ 4 \\ 5\end{array}\right]$.
