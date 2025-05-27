@@ -40,6 +40,9 @@ Then, we'll tackle a super common problem in real-world data: what do you do whe
 6.5: 1, 3, 5, 7, 12, 25
 6.6: 3, 4, 7, 13 
 -->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
 
 **Exercise 1**
 

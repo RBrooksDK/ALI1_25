@@ -43,6 +43,9 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 6.2: 1, 9, 12, 21, 35      
 6.3: 1, 3, 7, 13, 17 
 -->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
 
 **Exercise 1**
 

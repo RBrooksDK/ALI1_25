@@ -42,6 +42,9 @@ We'll focus on understanding how these concepts help us find the general solutio
 <!--
 5.7: 1-8, 15, 16, 19, 20 
 -->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
 
 **Exercise 1** (5.7.1)
 
