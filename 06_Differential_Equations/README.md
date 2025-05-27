@@ -43,42 +43,55 @@ We'll focus on understanding how these concepts help us find the general solutio
 5.7: 1-8, 15, 16, 19, 20 
 -->
 
-**Exercise 1**
+**Exercise 1** (5.7.1)
+
+A particle moving in a planar force field has a position vector $\mathbf{x}$ that satisfies $\mathbf{x}^{\prime}=A \mathbf{x}$. The $2 \times 2$ matrix $A$ has eigenvalues 4 and 2 , with corresponding eigenvectors $\mathbf{v}_1=\left[\begin{array}{r}-3 \\ 1\end{array}\right]$ and $\mathbf{v}_2=\left[\begin{array}{r}-1 \\ 1\end{array}\right]$. Find the position of the particle at time $t$, assuming that $\mathbf{x}(0)=\left[\begin{array}{r}-6 \\ 1\end{array}\right]$.
 
 ??? answer "&nbsp;"
 
-**Exercise 2**
+**Exercise 2** (5.7.2)
+
+Let $A$ be a $2 \times 2$ matrix with eigenvalues -3 and -1 and corresponding eigenvectors $\mathbf{v}_1=\left[\begin{array}{r}-1 \\ 1\end{array}\right]$ and $\mathbf{v}_2=\left[\begin{array}{l}1 \\ 1\end{array}\right]$. Let $\mathbf{x}(t)$ be the position of a particle at time $t$. Solve the initial value problem $\mathbf{x}^{\prime}=A \mathbf{x}, \mathbf{x}(0)=\left[\begin{array}{l}2 \\ 3\end{array}\right]$.
 
 ??? answer "&nbsp;"
 
-**Exercise 3**
+**Exercise 3** (5.7.3-5.7.6)
+
+Solve the initial value problem $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$ for $t \geq 0$, with $\mathbf{x}(0)=(3,2)$. Classify the nature of the origin as an attractor, repeller, or saddle point of the dynamical system described by $\mathbf{x}^{\prime}=A \mathbf{x}$. Find the directions of greatest attraction and/or repulsion. When the origin is a saddle point, sketch typical trajectories.
+
+3. $A=\left[\begin{array}{rr}2 & 3 \\ -1 & -2\end{array}\right]$
+4. $A=\left[\begin{array}{rr}-2 & -5 \\ 1 & 4\end{array}\right]$
+5. $A=\left[\begin{array}{rr}7 & -1 \\ 3 & 3\end{array}\right]$
+6. $A=\left[\begin{array}{ll}1 & -2 \\ 3 & -4\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 4**
+**Exercise 4** (5.7.7-5.7.8)
+
+Make a change of variable that decouples the equation $\mathbf{x}^{\prime}=A \mathbf{x}$. Write the equation $\mathbf{x}(t)=P \mathbf{y}(t)$ and show the calculation that leads to the uncoupled system $\mathbf{y}^{\prime}=D \mathbf{y}$, specifying $P$ and $D$.
+
+7. $A=\left[\begin{array}{rr}7 & -1 \\ 3 & 3\end{array}\right]$
+8. $A=\left[\begin{array}{ll}1 & -2 \\ 3 & -4\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 5**
+**Exercise 5** (5.7.15-5.7.16)
+
+Construct the general solution of $\mathbf{x}^{\prime}=A \mathbf{x}$ involving complex eigenfunctions and then obtain the general real solution. Describe the shapes of typical trajectories.
+
+15. $[\mathbf{M}] A=\left[\begin{array}{rrr}-8 & -12 & -6 \\ 2 & 1 & 2 \\ 7 & 12 & 5\end{array}\right]$
+16. $[\mathbf{M}] A=\left[\begin{array}{rrr}-6 & -11 & 16 \\ 2 & 5 & -4 \\ -4 & -5 & 10\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 6**
+**Exercise 6** (5.7.19)
+
+[M] Find formulas for the voltages $v_1$ and $v_2$ (as functions of time $t$ ) for the circuit in Example 1, assuming that $R_1=1 / 5$ ohm, $R_2=1 / 3$ ohm, $C_1=4$ farads, $C_2=3$ farads, and the initial charge on each capacitor is 4 volts.
 
 ??? answer "&nbsp;"
 
-**Exercise 7**
+**Exercise 7** (5.7.20)
 
-??? answer "&nbsp;"
-
-**Exercise 8**
-
-??? answer "&nbsp;"
-
-**Exercise 9**
-
-??? answer "&nbsp;"
-
-**Exercise 10**
+[M] Find formulas for the voltages $v_1$ and $v_2$ for the circuit in Example 1, assuming that $R_1=1 / 15 \mathrm{ohm}, R_2=1 / 3 \mathrm{ohm}$, $C_1=9$ farads, $C_2=2$ farads, and the initial charge on each capacitor is 3 volts.
 
 ??? answer "&nbsp;"
