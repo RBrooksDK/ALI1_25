@@ -918,7 +918,7 @@
 <hr />
 <h2 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Permanent link">&para;</a></h2>
 <!--
-"Do this exercise first.pdf" 
+"Do this exercise first.pdf" // NOTE: I couldn't find this file
 6.1: 1, 11, 13, 15-18  
 6.2: 1, 9, 12, 21, 35      
 6.3: 1, 3, 7, 13, 17 
@@ -949,17 +949,20 @@
 <p><span class="arithmatex">\(\mathbf{u} \cdot \mathbf{u}, \mathbf{v} \cdot \mathbf{u}\)</span>, and <span class="arithmatex">\(\frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{u} \cdot \mathbf{u}=(-1)^2+2^2=5, \mathbf{v} \cdot \mathbf{u}=4(-1)+6(2)=8\)</span>, and <span class="arithmatex">\(\frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}=\frac{8}{5}\)</span>.</p>
 </details>
 <p><strong>Exercise 2</strong> (6.1.11)</p>
 <p>Find a unit vector in the direction of the given vector.</p>
 <p><span class="arithmatex">\(\left[\begin{array}{c}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\frac{1}{\sqrt{(7 / 4)^2+(1 / 2)^2+1^2}}\left[\begin{array}{r}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]=\frac{1}{\sqrt{69 / 16}}\left[\begin{array}{r}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]=\left[\begin{array}{l}7 / \sqrt{69} \\ 2 / \sqrt{69} \\ 4 / \sqrt{69}\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 3</strong> (6.1.13)</p>
 <p>Find the distance between <span class="arithmatex">\(\mathbf{x}=\left[\begin{array}{r}10 \\ -3\end{array}\right]\)</span> and <span class="arithmatex">\(\mathbf{y}=\left[\begin{array}{l}-1 \\ -5\end{array}\right]\)</span>.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Since <span class="arithmatex">\(\mathbf{x}=\left[\begin{array}{c}10 \\ -3\end{array}\right]\)</span> and <span class="arithmatex">\(\mathbf{y}=\left[\begin{array}{l}-1 \\ -5\end{array}\right],\|\mathbf{x}-\mathbf{y}\|^2=[10-(-1)]^2+[-3-(-5)]^2=125\)</span> and <span class="arithmatex">\(\operatorname{dist}(\mathbf{x}, \mathbf{y})=\sqrt{125}=5 \sqrt{5}\)</span>.</p>
 </details>
 <p><strong>Exercise 4</strong> (6.1.15-6.1.18)</p>
 <p>Determine which pairs of vectors in the following exercises are orthogonal.</p>
@@ -971,35 +974,49 @@
 </ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>Since <span class="arithmatex">\(\mathbf{a} \cdot \mathbf{b}=8(-2)+(-5)(-3)=-1 \neq 0, \mathbf{a}\)</span> and <span class="arithmatex">\(\mathbf{b}\)</span> are not orthogonal.</li>
+<li>Since <span class="arithmatex">\(\mathbf{u} \cdot \mathbf{v}=12(2)+(3)(-3)+(-5)(3)=0, \mathbf{u}\)</span> and <span class="arithmatex">\(\mathbf{v}\)</span> are orthogonal.</li>
+<li>Since <span class="arithmatex">\(\mathbf{u} \cdot \mathbf{v}=3(-4)+2(1)+(-5)(-2)+0(6)=0, \mathbf{u}\)</span> and <span class="arithmatex">\(\mathbf{v}\)</span> are orthogonal.</li>
+<li>Since <span class="arithmatex">\(\mathbf{y} \cdot \mathbf{z}=(-3)(1)+7(-8)+4(15)+0(-7)=1 \neq 0, \mathbf{y}\)</span> and <span class="arithmatex">\(\mathbf{z}\)</span> are not orthogonal.</li>
+</ol>
 </details>
 <p><strong>Exercise 5</strong> (6.2.1)</p>
 <p>Determine whether the set of vectors is orthogonal.</p>
 <p><span class="arithmatex">\(\left[\begin{array}{r}-1 \\ 4 \\ -3\end{array}\right],\left[\begin{array}{l}5 \\ 2 \\ 1\end{array}\right],\left[\begin{array}{r}3 \\ -4 \\ -7\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Since <span class="arithmatex">\(\left[\begin{array}{r}-1 \\ 4 \\ -3\end{array}\right] \cdot\left[\begin{array}{r}3 \\ -4 \\ -7\end{array}\right]=2 \neq 0\)</span>, the set is not orthogonal.</p>
 </details>
 <p><strong>Exercise 6</strong> (6.2.9)</p>
 <p>Show that <span class="arithmatex">\(\left\{\mathbf{u}_1, \mathbf{u}_2\right\}\)</span> or <span class="arithmatex">\(\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}\)</span> is an orthogonal basis for <span class="arithmatex">\(\mathbf{R}^2\)</span> or <span class="arithmatex">\(\mathbf{R}^3\)</span>, respectively. Then express <span class="arithmatex">\(\mathbf{x}\)</span> as a linear combination of the u's.</p>
 <p><span class="arithmatex">\(\mathbf{u}_1=\left[\begin{array}{l}1 \\ 0 \\ 1\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 4 \\ 1\end{array}\right], \mathbf{u}_3=\left[\begin{array}{r}2 \\ 1 \\ -2\end{array}\right]\)</span>, and <span class="arithmatex">\(\mathbf{x}=\left[\begin{array}{r}8 \\ -4 \\ -3\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Since <span class="arithmatex">\(\mathbf{u}_1 \cdot \mathbf{u}_2=\mathbf{u}_1 \cdot \mathbf{u}_3=\mathbf{u}_2 \cdot \mathbf{u}_3=0,\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}\)</span> is an orthogonal set. Since the vectors are non-zero, <span class="arithmatex">\(\mathbf{u}_1, \mathbf{u}_2\)</span>, and <span class="arithmatex">\(\mathbf{u}_3\)</span> are linearly independent by Theorem 4. Three such vectors in <span class="arithmatex">\(\mathbb{R}^3\)</span> automatically form a basis for <span class="arithmatex">\(\mathbb{R}^3\)</span>. So <span class="arithmatex">\(\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}\)</span> is an orthogonal basis for <span class="arithmatex">\(\mathbb{R}^3\)</span>. By Theorem 5,</p>
+<div class="arithmatex">\[
+\mathbf{x}=\frac{\mathbf{x} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{x} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2+\frac{\mathbf{x} \cdot \mathbf{u}_3}{\mathbf{u}_3 \cdot \mathbf{u}_3} \mathbf{u}_3=\frac{5}{2} \mathbf{u}_1-\frac{3}{2} \mathbf{u}_2+2 \mathbf{u}_3
+\]</div>
 </details>
 <p><strong>Exercise 7</strong> (6.2.12)</p>
 <p>Compute the orthogonal projection of <span class="arithmatex">\(\left[\begin{array}{r}1 \\ -1\end{array}\right]\)</span> onto the line through <span class="arithmatex">\(\left[\begin{array}{r}-1 \\ 3\end{array}\right]\)</span> and the origin.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}=-\frac{2}{5} \mathbf{u}=\left[\begin{array}{r}2 / 5 \\ -6 / 5\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 8</strong> (6.2.21)</p>
 <p>Determine whether the set of vectors is orthonormal. If the set is only orthogonal, normalize the vectors to produce an orthonormal set.</p>
 <p><span class="arithmatex">\(\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}3 / \sqrt{10} \\ -1 / \sqrt{20} \\ -1 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}0 \\ -1 / \sqrt{2} \\ 1 / \sqrt{2}\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Let <span class="arithmatex">\(\mathbf{u}=\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array}\right], \mathbf{v}=\left[\begin{array}{r}3 / \sqrt{10} \\ -1 / \sqrt{20} \\ -1 / \sqrt{20}\end{array}\right]\)</span>, and <span class="arithmatex">\(\mathbf{w}=\left[\begin{array}{r}0 \\ -1 / \sqrt{2} \\ 1 / \sqrt{2}\end{array}\right]\)</span>. Since <span class="arithmatex">\(\mathbf{u} \cdot \mathbf{v}=\mathbf{u} \cdot \mathbf{w}=\mathbf{v} \cdot \mathbf{w}=0,\{\mathbf{u}, \mathbf{v}, \mathbf{w}\}\)</span> is an orthogonal set. Also, <span class="arithmatex">\(\|\mathbf{u}\|^2=\mathbf{u} \cdot \mathbf{u}=1,\|\mathbf{v}\|^2=\mathbf{v} \cdot \mathbf{v}=1\)</span>, and <span class="arithmatex">\(\|\mathbf{w}\|^2=\mathbf{w} \cdot \mathbf{w}=1\)</span>, so <span class="arithmatex">\(\{\mathbf{u}, \mathbf{v}, \mathbf{w}\}\)</span> is an orthonormal set.</p>
 </details>
 <p><strong>Exercise 9</strong> (6.2.35)</p>
 <p>[M] Show that the columns of the matrix <span class="arithmatex">\(A\)</span> are orthogonal by making an appropriate matrix calculation. State the calculation you use.</p>
 <p><span class="arithmatex">\(A=\left[\begin{array}{rrrr}-6 &amp; -3 &amp; 6 &amp; 1 \\ -1 &amp; 2 &amp; 1 &amp; -6 \\ 3 &amp; 6 &amp; 3 &amp; -2 \\ 6 &amp; -3 &amp; 6 &amp; -1 \\ 2 &amp; -1 &amp; 2 &amp; 3 \\ -3 &amp; 6 &amp; 3 &amp; 2 \\ -2 &amp; -1 &amp; 2 &amp; -3 \\ 1 &amp; 2 &amp; 1 &amp; 6\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>[M] One can compute that <span class="arithmatex">\(A^T A=100 I_4\)</span>. Since the off-diagonal entries in <span class="arithmatex">\(A^T A\)</span> are zero, the columns of <span class="arithmatex">\(A\)</span> are orthogonal.</p>
 </details>
 <p><strong>Exercise 10</strong> (6.3.1)</p>
 <p>You may assume that <span class="arithmatex">\(\left\{\mathbf{u}_1, \ldots, \mathbf{u}_4\right\}\)</span> is an orthogonal basis for <span class="arithmatex">\(\mathbb{R}^4\)</span>.</p>
@@ -1008,24 +1025,43 @@
 <span class="arithmatex">\(\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}\)</span> and the other in Span <span class="arithmatex">\(\left\{\mathbf{u}_4\right\}\)</span>.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\mathbf{x}-\frac{\mathbf{x} \cdot \mathbf{u}_4}{\mathbf{u}_4 \cdot \mathbf{u}_4} \mathbf{u}_4=\left[\begin{array}{r}10 \\ -8 \\ 2 \\ 0\end{array}\right]-\left[\begin{array}{r}10 \\ -6 \\ -2 \\ 2\end{array}\right]=\left[\begin{array}{r}0 \\ -2 \\ 4 \\ -2\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 11</strong> (6.3.3)</p>
 <p>Verify that <span class="arithmatex">\(\left\{\mathbf{u}_1, \mathbf{u}_2\right\}\)</span> is an orthogonal set, and then find the orthogonal projection of <span class="arithmatex">\(\mathbf{y}\)</span> onto <span class="arithmatex">\(\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}\)</span>.</p>
 <p><span class="arithmatex">\(\mathbf{y}=\left[\begin{array}{r}-1 \\ 4 \\ 3\end{array}\right], \mathbf{u}_1=\left[\begin{array}{l}1 \\ 1 \\ 0\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 1 \\ 0\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Since <span class="arithmatex">\(\mathbf{u}_1 \cdot \mathbf{u}_2=-1+1+0=0,\left\{\mathbf{u}_1, \mathbf{u}_2\right\}\)</span> is an orthogonal set. The orthogonal projection of <span class="arithmatex">\(\mathbf{y}\)</span> onto <span class="arithmatex">\(\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}\)</span> is</p>
+<div class="arithmatex">\[
+\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{y} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2=\frac{3}{2} \mathbf{u}_1+\frac{5}{2} \mathbf{u}_2=\frac{3}{2}\left[\begin{array}{l}
+1 \\
+1 \\
+0
+\end{array}\right]+\frac{5}{2}\left[\begin{array}{r}
+-1 \\
+1 \\
+0
+\end{array}\right]=\left[\begin{array}{r}
+-1 \\
+4 \\
+0
+\end{array}\right]
+\]</div>
 </details>
 <p><strong>Exercise 12</strong> (6.3.7)</p>
 <p>Let <span class="arithmatex">\(W\)</span> be the subspace spanned by the <span class="arithmatex">\(\mathbf{u}\)</span> 's, and write <span class="arithmatex">\(y\)</span> as the sum of a vector in <span class="arithmatex">\(W\)</span> and a vector orthogonal to <span class="arithmatex">\(W\)</span>.</p>
 <p><span class="arithmatex">\(\mathbf{y}=\left[\begin{array}{l}1 \\ 3 \\ 5\end{array}\right], \mathbf{u}_1=\left[\begin{array}{r}1 \\ 3 \\ -2\end{array}\right], \mathbf{u}_2=\left[\begin{array}{l}5 \\ 1 \\ 4\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}_1}{\mathbf{u}_1 \cdot \mathbf{u}_1} \mathbf{u}_1+\frac{\mathbf{y} \cdot \mathbf{u}_2}{\mathbf{u}_2 \cdot \mathbf{u}_2} \mathbf{u}_2=0 \mathbf{u}_1+\frac{2}{3} \mathbf{u}_2=\left[\begin{array}{r}10 / 3 \\ 2 / 3 \\ 8 / 3\end{array}\right], \mathbf{z}=\mathbf{y}-\hat{\mathbf{y}}=\left[\begin{array}{r}-7 / 3 \\ 7 / 3 \\ 7 / 3\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 13</strong> (6.3.13)</p>
 <p>Find the best approximation to <span class="arithmatex">\(\mathbf{z}\)</span> by vectors of the form <span class="arithmatex">\(c_1 \mathbf{v}_1+c_2 \mathbf{v}_2\)</span>.</p>
 <p><span class="arithmatex">\(\mathbf{z}=\left[\begin{array}{r}3 \\ -7 \\ 2 \\ 3\end{array}\right], \mathbf{v}_1=\left[\begin{array}{r}2 \\ -1 \\ -3 \\ 1\end{array}\right], \mathbf{v}_2=\left[\begin{array}{r}1 \\ 1 \\ 0 \\ -1\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\hat{\mathbf{z}}=\frac{\mathbf{z} \cdot \mathbf{v}_1}{\mathbf{v}_1 \cdot \mathbf{v}_1} \mathbf{v}_1+\frac{\mathbf{z} \cdot \mathbf{v}_2}{\mathbf{v}_2 \cdot \mathbf{v}_2} \mathbf{v}_2=\frac{2}{3} \mathbf{v}_1-\frac{7}{3} \mathbf{v}_2=\left[\begin{array}{c}-1 \\ -3 \\ -2 \\ 3\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 14</strong> (6.3.17)</p>
 <p>Let <span class="arithmatex">\(\mathbf{y}=\left[\begin{array}{l}4 \\ 8 \\ 1\end{array}\right], \quad \mathbf{u}_1=\left[\begin{array}{l}2 / 3 \\ 1 / 3 \\ 2 / 3\end{array}\right], \quad \mathbf{u}_2=\left[\begin{array}{r}-2 / 3 \\ 2 / 3 \\ 1 / 3\end{array}\right], \quad\)</span> and
@@ -1034,6 +1070,13 @@
 <li>Let <span class="arithmatex">\(U=\left[\begin{array}{ll}\mathbf{u}_1 &amp; \mathbf{u}_2\end{array}\right]\)</span>. Compute <span class="arithmatex">\(U^T U\)</span> and <span class="arithmatex">\(U U^T\)</span>.</li>
 <li>Compute <span class="arithmatex">\(\operatorname{proj}_W \mathbf{y}\)</span> and <span class="arithmatex">\(\left(U U^T\right) \mathbf{y}\)</span>.</li>
 </ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(U^T U=\left[\begin{array}{ll}1 &amp; 0 \\ 0 &amp; 1\end{array}\right], U U^T=\left[\begin{array}{rrr}8 / 9 &amp; -2 / 9 &amp; 2 / 9 \\ -2 / 9 &amp; 5 / 9 &amp; 4 / 9 \\ 2 / 9 &amp; 4 / 9 &amp; 5 / 9\end{array}\right]\)</span></li>
+<li>Since <span class="arithmatex">\(U^T U=I_2\)</span>, the columns of <span class="arithmatex">\(U\)</span> form an orthonormal basis for <span class="arithmatex">\(W\)</span>, and by Theorem 10 <span class="arithmatex">\(\operatorname{proj}_W \mathbf{y}=U U^T \mathbf{y}=\left[\begin{array}{rrr}8 / 9 &amp; -2 / 9 &amp; 2 / 9 \\ -2 / 9 &amp; 5 / 9 &amp; 4 / 9 \\ 2 / 9 &amp; 4 / 9 &amp; 5 / 9\end{array}\right]\left[\begin{array}{l}4 \\ 8 \\ 1\end{array}\right]=\left[\begin{array}{l}2 \\ 4 \\ 5\end{array}\right]\)</span>.</li>
+</ol>
+</details>
 
 
 
