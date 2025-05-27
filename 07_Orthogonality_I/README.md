@@ -47,42 +47,134 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
     ol { list-style-type: lower-alpha; }
 </style>
 
-**Exercise 1**
+**Exercise 1** (6.1.1)
+
+Compute the quantities using the vectors
+
+$$
+\mathbf{u}=\left[\begin{array}{r}
+-1 \\
+2
+\end{array}\right], \quad \mathbf{v}=\left[\begin{array}{l}
+4 \\
+6
+\end{array}\right], \quad \mathbf{w}=\left[\begin{array}{r}
+3 \\
+-1 \\
+-5
+\end{array}\right], \quad \mathbf{x}=\left[\begin{array}{r}
+6 \\
+-2 \\
+3
+\end{array}\right]
+$$
+
+$\mathbf{u} \cdot \mathbf{u}, \mathbf{v} \cdot \mathbf{u}$, and $\frac{\mathbf{v} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}}$
 
 ??? answer "&nbsp;"
 
-**Exercise 2**
+**Exercise 2** (6.1.11)
+
+Find a unit vector in the direction of the given vector.
+
+$\left[\begin{array}{c}7 / 4 \\ 1 / 2 \\ 1\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 3**
+**Exercise 3** (6.1.13)
+
+Find the distance between $\mathbf{x}=\left[\begin{array}{r}10 \\ -3\end{array}\right]$ and $\mathbf{y}=\left[\begin{array}{l}-1 \\ -5\end{array}\right]$.
 
 ??? answer "&nbsp;"
 
-**Exercise 4**
+**Exercise 4** (6.1.15-6.1.18)
+
+Determine which pairs of vectors in the following exercises are orthogonal.
+
+15. $\mathbf{a}=\left[\begin{array}{r}8 \\ -5\end{array}\right], \mathbf{b}=\left[\begin{array}{l}-2 \\ -3\end{array}\right]$
+16. $\mathbf{u}=\left[\begin{array}{r}12 \\ 3 \\ -5\end{array}\right], \mathbf{v}=\left[\begin{array}{r}2 \\ -3 \\ 3\end{array}\right]$
+17. $\mathbf{u}=\left[\begin{array}{r}3 \\ 2 \\ -5 \\ 0\end{array}\right], \mathbf{v}=\left[\begin{array}{r}-4 \\ 1 \\ -2 \\ 6\end{array}\right]$
+18. $\mathbf{y}=\left[\begin{array}{r}-3 \\ 7 \\ 4 \\ 0\end{array}\right], \mathbf{z}=\left[\begin{array}{r}1 \\ -8 \\ 15 \\ -7\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 5**
+**Exercise 5** (6.2.1)
+
+Determine whether the set of vectors is orthogonal.
+
+$\left[\begin{array}{r}-1 \\ 4 \\ -3\end{array}\right],\left[\begin{array}{l}5 \\ 2 \\ 1\end{array}\right],\left[\begin{array}{r}3 \\ -4 \\ -7\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 6**
+**Exercise 6** (6.2.9)
+
+Show that $\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ or $\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ is an orthogonal basis for $\mathbf{R}^2$ or $\mathbf{R}^3$, respectively. Then express $\mathbf{x}$ as a linear combination of the u's.
+
+$\mathbf{u}_1=\left[\begin{array}{l}1 \\ 0 \\ 1\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 4 \\ 1\end{array}\right], \mathbf{u}_3=\left[\begin{array}{r}2 \\ 1 \\ -2\end{array}\right]$, and $\mathbf{x}=\left[\begin{array}{r}8 \\ -4 \\ -3\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 7**
+**Exercise 7** (6.2.12)
+
+Compute the orthogonal projection of $\left[\begin{array}{r}1 \\ -1\end{array}\right]$ onto the line through $\left[\begin{array}{r}-1 \\ 3\end{array}\right]$ and the origin.
 
 ??? answer "&nbsp;"
 
-**Exercise 8**
+**Exercise 8** (6.2.21)
+
+Determine whether the set of vectors is orthonormal. If the set is only orthogonal, normalize the vectors to produce an orthonormal set.
+
+$\left[\begin{array}{l}1 / \sqrt{10} \\ 3 / \sqrt{20} \\ 3 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}3 / \sqrt{10} \\ -1 / \sqrt{20} \\ -1 / \sqrt{20}\end{array}\right],\left[\begin{array}{c}0 \\ -1 / \sqrt{2} \\ 1 / \sqrt{2}\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 9**
+**Exercise 9** (6.2.35)
+
+[M] Show that the columns of the matrix $A$ are orthogonal by making an appropriate matrix calculation. State the calculation you use.
+
+$A=\left[\begin{array}{rrrr}-6 & -3 & 6 & 1 \\ -1 & 2 & 1 & -6 \\ 3 & 6 & 3 & -2 \\ 6 & -3 & 6 & -1 \\ 2 & -1 & 2 & 3 \\ -3 & 6 & 3 & 2 \\ -2 & -1 & 2 & -3 \\ 1 & 2 & 1 & 6\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 10**
+**Exercise 10** (6.3.1)
+
+You may assume that $\left\{\mathbf{u}_1, \ldots, \mathbf{u}_4\right\}$ is an orthogonal basis for $\mathbb{R}^4$.
+
+$\mathbf{u}_1=\left[\begin{array}{r}0 \\ 1 \\ -4 \\ -1\end{array}\right], \mathbf{u}_2=\left[\begin{array}{l}3 \\ 5 \\ 1 \\ 1\end{array}\right], \mathbf{u}_3=\left[\begin{array}{r}1 \\ 0 \\ 1 \\ -4\end{array}\right], \mathbf{u}_4=\left[\begin{array}{r}5 \\ -3 \\ -1 \\ 1\end{array}\right]$, $\mathbf{x}=\left[\begin{array}{r}10 \\ -8 \\ 2 \\ 0\end{array}\right]$. 
+
+Write $\mathbf{x}$ as the sum of two vectors, one in
+$\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ and the other in Span $\left\{\mathbf{u}_4\right\}$.
 
 ??? answer "&nbsp;"
+
+**Exercise 11** (6.3.3)
+
+Verify that $\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$ is an orthogonal set, and then find the orthogonal projection of $\mathbf{y}$ onto $\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$.
+
+$\mathbf{y}=\left[\begin{array}{r}-1 \\ 4 \\ 3\end{array}\right], \mathbf{u}_1=\left[\begin{array}{l}1 \\ 1 \\ 0\end{array}\right], \mathbf{u}_2=\left[\begin{array}{r}-1 \\ 1 \\ 0\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 12** (6.3.7)
+
+Let $W$ be the subspace spanned by the $\mathbf{u}$ 's, and write $y$ as the sum of a vector in $W$ and a vector orthogonal to $W$.
+
+$\mathbf{y}=\left[\begin{array}{l}1 \\ 3 \\ 5\end{array}\right], \mathbf{u}_1=\left[\begin{array}{r}1 \\ 3 \\ -2\end{array}\right], \mathbf{u}_2=\left[\begin{array}{l}5 \\ 1 \\ 4\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 13** (6.3.13)
+
+Find the best approximation to $\mathbf{z}$ by vectors of the form $c_1 \mathbf{v}_1+c_2 \mathbf{v}_2$.
+
+$\mathbf{z}=\left[\begin{array}{r}3 \\ -7 \\ 2 \\ 3\end{array}\right], \mathbf{v}_1=\left[\begin{array}{r}2 \\ -1 \\ -3 \\ 1\end{array}\right], \mathbf{v}_2=\left[\begin{array}{r}1 \\ 1 \\ 0 \\ -1\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 14** (6.3.17)
+
+Let $\mathbf{y}=\left[\begin{array}{l}4 \\ 8 \\ 1\end{array}\right], \quad \mathbf{u}_1=\left[\begin{array}{l}2 / 3 \\ 1 / 3 \\ 2 / 3\end{array}\right], \quad \mathbf{u}_2=\left[\begin{array}{r}-2 / 3 \\ 2 / 3 \\ 1 / 3\end{array}\right], \quad$ and
+$W=\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2\right\}$.
+
+1. Let $U=\left[\begin{array}{ll}\mathbf{u}_1 & \mathbf{u}_2\end{array}\right]$. Compute $U^T U$ and $U U^T$.
+2. Compute $\operatorname{proj}_W \mathbf{y}$ and $\left(U U^T\right) \mathbf{y}$.
