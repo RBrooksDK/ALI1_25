@@ -44,43 +44,76 @@ Depending on the precise content of the sections, we may also touch upon the **g
 ​​​3.1: 1, 2, 9, 43   
 3.2: 1, 2, 15-20, 25 
 -->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
 
-**Exercise 1**
+**Exercise 1** (3.1.1-3.1.2)
 
-??? answer "&nbsp;"
+Compute the determinants using a cofactor expansion across the first row. Then compute the determinant also by a cofactor expansion down the second column.
 
-**Exercise 2**
-
-??? answer "&nbsp;"
-
-**Exercise 3**
-
-??? answer "&nbsp;"
-
-**Exercise 4**
+1. $\left|\begin{array}{rrr}3 & 0 & 4 \\ 2 & 3 & 2 \\ 0 & 5 & -1\end{array}\right|$
+2. $\left|\begin{array}{rrr}0 & 5 & 1 \\ 4 & -3 & 0 \\ 2 & 4 & 1\end{array}\right|$
 
 ??? answer "&nbsp;"
 
-**Exercise 5**
+**Exercise 2** (3.1.9)
+
+Compute the determinant by cofactor expansions. At each step, choose a row or column that involves the least amount of computation.
+
+<div align="center">
+$\displaystyle \left|\begin{array}{rrrr}
+6 & 0 & 0 & 5 \\
+1 & 7 & 2 & -5 \\
+2 & 0 & 0 & 0 \\
+8 & 3 & 1 & 8
+\end{array}\right|$
+</div>
 
 ??? answer "&nbsp;"
 
-**Exercise 6**
+**Exercise 3** (3.1.43)
+
+$[\mathbf{M}]$ Is it true that $\operatorname{det}(A+B)=\operatorname{det} A+\operatorname{det} B ?$ To find out, generate random $5 \times 5$ matrices $A$ and $B$, and compute $\operatorname{det}(A+B)-\operatorname{det} A-\operatorname{det} B$. (Refer to Exercise 37 in Section 2.1.) Repeat the calculations for three other pairs of $n \times n$ matrices, for various values of $n$. Report your results.
 
 ??? answer "&nbsp;"
 
-**Exercise 7**
+**Exercise 4** (3.2.1-3.2.2)
+
+Both equations illustrate a property of determinants. State the property.
+
+1. $\left|\begin{array}{rrr}0 & 5 & -2 \\ 1 & -3 & 6 \\ 4 & -1 & 8\end{array}\right|=-\left|\begin{array}{rrr}1 & -3 & 6 \\ 0 & 5 & -2 \\ 4 & -1 & 8\end{array}\right|$
+2. $\left|\begin{array}{rrr}2 & -6 & 4 \\ 3 & 5 & -2 \\ 1 & 6 & 3\end{array}\right|=2\left|\begin{array}{rrr}1 & -3 & 2 \\ 3 & 5 & -2 \\ 1 & 6 & 3\end{array}\right|$
 
 ??? answer "&nbsp;"
 
-**Exercise 8**
+**Exercise 5** (3.2.15-3.2.20)
+
+Find the determinants in the following exercises, where
+
+$$
+\left|\begin{array}{lll}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{array}\right|=7 .
+$$
+
+1. $\left|\begin{array}{ccc}a & b & c \\ d & e & f \\ 5 g & 5 h & 5 i\end{array}\right|$
+2. $\left|\begin{array}{ccc}a & b & c \\ 3 d & 3 e & 3 f \\ g & h & i\end{array}\right|$
+3. $\left|\begin{array}{lll}a & b & c \\ g & h & i \\ d & e & f\end{array}\right|$
+4. $\left|\begin{array}{lll}g & h & i \\ a & b & c \\ d & e & f\end{array}\right|$
+5. $\left|\begin{array}{ccc}a & b & c \\ 2 d+a & 2 e+b & 2 f+c \\ g & h & i\end{array}\right|$
+6. $\left|\begin{array}{ccc}a+d & b+e & c+f \\ d & e & f \\ g & h & i\end{array}\right|$
 
 ??? answer "&nbsp;"
 
-**Exercise 9**
+**Exercise 6** (3.2.25)
 
-??? answer "&nbsp;"
+Use the determinant to decide if the set of vectors is linearly independent.
 
-**Exercise 10**
+<div align="center">
+$\left[\begin{array}{r}7 \\ -4 \\ -6\end{array}\right],\left[\begin{array}{r}-8 \\ 5 \\ 7\end{array}\right],\left[\begin{array}{r}7 \\ 0 \\ -5\end{array}\right]$
+</div>
 
 ??? answer "&nbsp;"
