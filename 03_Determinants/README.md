@@ -56,6 +56,8 @@ Compute the determinants using a cofactor expansion across the first row. Then c
 2. $\left|\begin{array}{rrr}0 & 5 & 1 \\ 4 & -3 & 0 \\ 2 & 4 & 1\end{array}\right|$
 
 ??? answer "&nbsp;"
+    1. 1
+    2. 2
 
 **Exercise 2** (3.1.9)
 
@@ -71,12 +73,14 @@ $\displaystyle \left|\begin{array}{rrrr}
 </div>
 
 ??? answer "&nbsp;"
+    10
 
 **Exercise 3** (3.1.43)
 
 $[\mathbf{M}]$ Is it true that $\operatorname{det}(A+B)=\operatorname{det} A+\operatorname{det} B ?$ To find out, generate random $5 \times 5$ matrices $A$ and $B$, and compute $\operatorname{det}(A+B)-\operatorname{det} A-\operatorname{det} B$. (Refer to Exercise 37 in Section 2.1.) Repeat the calculations for three other pairs of $n \times n$ matrices, for various values of $n$. Report your results.
 
 ??? answer "&nbsp;"
+    [M] Answers will vary. The conclusion should be that $\operatorname{det}(A B)=(\operatorname{det} A)(\operatorname{det} B)$.
 
 **Exercise 4** (3.2.1-3.2.2)
 
@@ -86,6 +90,8 @@ Both equations illustrate a property of determinants. State the property.
 2. $\left|\begin{array}{rrr}2 & -6 & 4 \\ 3 & 5 & -2 \\ 1 & 6 & 3\end{array}\right|=2\left|\begin{array}{rrr}1 & -3 & 2 \\ 3 & 5 & -2 \\ 1 & 6 & 3\end{array}\right|$
 
 ??? answer "&nbsp;"
+    1. Rows 1 and 2 are interchanged, so the determinant changes sign (Theorem 3b.).
+    2. The constant 2 may be factored out of the Row 1 (Theorem 3c.).
 
 **Exercise 5** (3.2.15-3.2.20)
 
@@ -107,6 +113,12 @@ $$
 6. $\left|\begin{array}{ccc}a+d & b+e & c+f \\ d & e & f \\ g & h & i\end{array}\right|$
 
 ??? answer "&nbsp;"
+    1. 35
+    2. 21
+    3. -7
+    4. 7
+    5. 14
+    6. 7
 
 **Exercise 6** (3.2.25)
 
@@ -117,3 +129,4 @@ $\left[\begin{array}{r}7 \\ -4 \\ -6\end{array}\right],\left[\begin{array}{r}-8 
 </div>
 
 ??? answer "&nbsp;"
+    The columns of the matrix form a linearly independent set.
