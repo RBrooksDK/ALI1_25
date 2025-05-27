@@ -42,43 +42,139 @@ A crucial concept we'll build up to is finding the most efficient way to describ
 4.5: 6, 11, 14, 17      
 4.6: 2, 4, 35     
 -->
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
 
-**Exercise 1**
+**Exercise 1** (4.2.2)
 
-??? answer "&nbsp;"
+Determine if $w=\left[\begin{array}{r}1 \\ -1 \\ 1\end{array}\right]$ is in $\operatorname{Nul} A$, where
 
-**Exercise 2**
+$$
+A=\left[\begin{array}{rrr}
+2 & 6 & 4 \\
+-3 & 2 & 5 \\
+-5 & -4 & 1
+\end{array}\right]
+$$
 
-??? answer "&nbsp;"
-
-**Exercise 3**
-
-??? answer "&nbsp;"
-
-**Exercise 4**
-
-??? answer "&nbsp;"
-
-**Exercise 5**
 
 ??? answer "&nbsp;"
 
-**Exercise 6**
+**Exercise 2** (4.2.3-4.2.6)
+
+In the following exercises, find an explicit description of Nul A, by listing vectors that span the null space.
+
+3. $A=\left[\begin{array}{rrrr}1 & 2 & 4 & 0 \\ 0 & 1 & 3 & -2\end{array}\right]$
+4. $A=\left[\begin{array}{rrrr}1 & -3 & 2 & 0 \\ 0 & 0 & 3 & 0\end{array}\right]$
+5. $A=\left[\begin{array}{rrrrr}1 & -4 & 0 & 2 & 0 \\ 0 & 0 & 1 & -5 & 0 \\ 0 & 0 & 0 & 0 & 2\end{array}\right]$
+6. $A=\left[\begin{array}{rrrrr}1 & 3 & -4 & -3 & 1 \\ 0 & 1 & -3 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 7**
+**Exercise 3** (4.2.17-4.2.20)
+
+For the matrices in the following exercises, (a) find $k$ such that $\mathrm{Nul} A$ is a subspace of $\mathbb{R}^k$, and (b) find $k$ such that $\operatorname{Col} A$ is a subspace of $\mathbb{R}^k$.
+
+17. $A=\left[\begin{array}{rr}6 & -4 \\ -3 & 2 \\ -9 & 6 \\ 9 & -6\end{array}\right]$
+18. $A=\left[\begin{array}{rrr}5 & -2 & 3 \\ -1 & 0 & -1 \\ 0 & -2 & -2 \\ -5 & 7 & 2\end{array}\right]$
+19. $A=\left[\begin{array}{rrrrr}4 & 5 & -2 & 6 & 0 \\ 1 & 1 & 0 & 1 & 0\end{array}\right]$
+20. $A=\left[\begin{array}{lllll}1 & -3 & 2 & 0 & -5\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 8**
+**Exercise 4** (4.2.24)
+
+Let $A=\left[\begin{array}{rrrr}10 & -8 & -2 & -2 \\ 0 & 2 & 2 & -2 \\ 1 & -1 & 6 & 0 \\ 1 & 1 & 0 & -2\end{array}\right]$ and $\mathbf{w}=\left[\begin{array}{l}2 \\ 2 \\ 0 \\ 2\end{array}\right]$. Determine if $\mathbf{w}$ is in $\operatorname{Col} A$. Is $\mathbf{w}$ in $\operatorname{Nul} A$ ?
 
 ??? answer "&nbsp;"
 
-**Exercise 9**
+**Exercise 5** (4.3.9-4.3.10)
+
+Find bases for the null spaces of the given matrices. Refer to the remarks that follow Example 3 in Section 4.2.
+
+9. $\left[\begin{array}{rrrr}1 & 0 & -2 & -2 \\ 0 & 1 & 1 & 4 \\ 3 & -1 & -7 & 3\end{array}\right]$
+10. $\left[\begin{array}{rrrrr}1 & 1 & -2 & 1 & 5 \\ 0 & 1 & 0 & -1 & -2 \\ 0 & 0 & -8 & 0 & 16\end{array}\right]$
 
 ??? answer "&nbsp;"
 
-**Exercise 10**
+**Exercise 6** (4.3.13)
+
+Assume that $A$ is row equivalent to $B$. Find the base for $\operatorname{Nul} A$ and $\operatorname{Col} A$.
+
+$A=\left[\begin{array}{rrrr}-2 & 4 & -2 & -4 \\ 2 & -6 & -3 & 1 \\ -3 & 8 & 2 & -3\end{array}\right], B=\left[\begin{array}{llll}1 & 0 & 6 & 5 \\ 0 & 2 & 5 & 3 \\ 0 & 0 & 0 & 0\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 7** (4.3.17-4.3.18)
+
+Find a basis for the space spanned by the given vectors, $\mathbf{v}_1, \ldots, \mathbf{v}_5$.
+
+17. $[\mathbf{M}]\left[\begin{array}{r}2 \\ 0 \\ -4 \\ -6 \\ 0\end{array}\right],\left[\begin{array}{r}4 \\ 0 \\ 2 \\ -4 \\ 4\end{array}\right],\left[\begin{array}{r}-2 \\ -4 \\ 0 \\ 1 \\ -7\end{array}\right],\left[\begin{array}{r}8 \\ 4 \\ 8 \\ -3 \\ 15\end{array}\right],\left[\begin{array}{r}-8 \\ 4 \\ 0 \\ 0 \\ 1\end{array}\right]$
+18. $[\mathbf{M}]\left[\begin{array}{r}-3 \\ 2 \\ 6 \\ 0 \\ -7\end{array}\right],\left[\begin{array}{r}3 \\ 0 \\ -9 \\ 0 \\ 6\end{array}\right],\left[\begin{array}{r}0 \\ 2 \\ -4 \\ 0 \\ -1\end{array}\right],\left[\begin{array}{r}6 \\ -2 \\ -14 \\ 0 \\ 13\end{array}\right],\left[\begin{array}{r}-6 \\ 3 \\ 0 \\ -1 \\ 0\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 8** (4.3.36)
+
+[M] Let $H=\operatorname{Span}\left\{\mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3\right\}$ and $K=\operatorname{Span}\left\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\right\}$, where
+
+$$
+\begin{aligned}
+\mathbf{u}_1 &= \begin{bmatrix}1\\2\\0\\-1\end{bmatrix}, &
+\mathbf{u}_2 &= \begin{bmatrix}0\\2\\-1\\1\end{bmatrix}, &
+\mathbf{u}_3 &= \begin{bmatrix}3\\4\\1\\-4\end{bmatrix},\\
+\mathbf{v}_1 &= \begin{bmatrix}-2\\-2\\-1\\3\end{bmatrix}, &
+\mathbf{v}_2 &= \begin{bmatrix}2\\3\\2\\-6\end{bmatrix}, &
+\mathbf{v}_3 &= \begin{bmatrix}-1\\4\\6\\-2\end{bmatrix}.
+\end{aligned}
+$$
+
+
+Find bases for $H, K$, and $H+K$. (See Exercises 33 and 34 in Section 4.1.)
+
+??? answer "&nbsp;"
+
+**Exercise 9** (4.5.6)
+
+1. find a basis for this subspace, and 
+2. state the dimension.
+
+$\left\{\left[\begin{array}{c}3 a-c \\ -b-3 c \\ -7 a+6 b+5 c \\ -3 a+c\end{array}\right]: a, b, c\right.$ in $\left.\mathbb{R}\right\}$
+
+??? answer "&nbsp;"
+
+**Exercise 10** (4.5.11)
+
+Find the dimension of the subspace spanned by the given vectors.
+
+$\left[\begin{array}{l}1 \\ 0 \\ 2\end{array}\right],\left[\begin{array}{l}3 \\ 1 \\ 1\end{array}\right],\left[\begin{array}{r}-2 \\ -1 \\ 1\end{array}\right],\left[\begin{array}{l}5 \\ 2 \\ 2\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 11** (4.5.14, 4.5.17)
+
+Determine the dimensions of $\operatorname{Nul} A$ and $\operatorname{Col} A$ for the following matricies.
+
+14. $A=\left[\begin{array}{rrrrrrr}1 & 2 & -4 & 3 & -2 & 6 & 0 \\ 0 & 0 & 0 & 1 & 0 & -3 & 7 \\ 0 & 0 & 0 & 0 & 1 & 4 & -2 \\ 0 & 0 & 0 & 0 & 0 & 0 & 1\end{array}\right]$
+17. $A=\left[\begin{array}{rrr}1 & -1 & 0 \\ 0 & 1 & 3 \\ 0 & 0 & 1\end{array}\right]$
+
+??? answer "&nbsp;"
+
+**Exercise 12** (4.6.2, 4.6.4)
+
+Assume that the matrix $A$ is row equivalent to $B$. Without calculations, list $\operatorname{rank} A$ and $\operatorname{dim} \operatorname{Nul} A$. Then find bases for $\operatorname{Col} A, \operatorname{Row} A$, and $\operatorname{Nul} A$.
+
+2. $\begin{aligned} A & =\left[\begin{array}{rrrrr}1 & 3 & 4 & -1 & 2 \\ 2 & 6 & 6 & 0 & -3 \\ 3 & 9 & 3 & 6 & -3 \\ 3 & 9 & 0 & 9 & 0\end{array}\right], \\ B & =\left[\begin{array}{rrrrr}1 & 3 & 4 & -1 & 2 \\ 0 & 0 & 1 & -1 & 1 \\ 0 & 0 & 0 & 0 & -5 \\ 0 & 0 & 0 & 0 & 0\end{array}\right],\end{aligned}$
+4. $\begin{aligned} A & =\left[\begin{array}{rrrrrr}1 & 1 & -2 & 0 & 1 & -2 \\ 1 & 2 & -3 & 0 & -2 & -3 \\ 1 & -1 & 0 & 0 & 1 & 6 \\ 1 & -2 & 2 & 1 & -3 & 0 \\ 1 & -2 & 1 & 0 & 2 & -1\end{array}\right], \\ B & =\left[\begin{array}{rrrrrr}1 & 1 & -2 & 0 & 1 & -2 \\ 0 & 1 & -1 & 0 & -3 & -1 \\ 0 & 0 & 1 & 1 & -13 & -1 \\ 0 & 0 & 0 & 0 & 1 & -1 \\ 0 & 0 & 0 & 0 & 0 & 1\end{array}\right]\end{aligned}$
+
+??? answer "&nbsp;"
+
+**Exercise 13** (4.6.35)
+
+[M] Let $A=\left[\begin{array}{rrrrrrr}7 & -9 & -4 & 5 & 3 & -3 & -7 \\ -4 & 6 & 7 & -2 & -6 & -5 & 5 \\ 5 & -7 & -6 & 5 & -6 & 2 & 8 \\ -3 & 5 & 8 & -1 & -7 & -4 & 8 \\ 6 & -8 & -5 & 4 & 4 & 9 & 3\end{array}\right]$.
+
+1. Construct matrices $C$ and $N$ whose columns are bases for $\operatorname{Col} A$ and $\operatorname{Nul} A$, respectively, and construct a matrix $R$ whose rows form a basis for Row $A$.
+2. Construct a matrix $M$ whose columns form a basis for $\operatorname{Nul} A^T$, form the matrices $S=\left[\begin{array}{ll}R^T & N\end{array}\right]$ and $T=\left[\begin{array}{ll}C & M\end{array}\right]$, and explain why $S$ and $T$ should be square. Verify that both $S$ and $T$ are invertible.
 
 ??? answer "&nbsp;"
