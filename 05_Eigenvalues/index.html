@@ -931,21 +931,25 @@
 <p>Is <span class="arithmatex">\(\lambda=2\)</span> an eigenvalue of <span class="arithmatex">\(\left[\begin{array}{ll}3 &amp; 2 \\ 3 &amp; 8\end{array}\right]\)</span> ? Why or why not?</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>2 is an eigenvalue of <span class="arithmatex">\(A\)</span>.</p>
 </details>
 <p><strong>Exercise 2</strong> (5.1.3)</p>
 <p>Is <span class="arithmatex">\(\left[\begin{array}{l}1 \\ 3\end{array}\right]\)</span> an eigenvector of <span class="arithmatex">\(\left[\begin{array}{ll}1 &amp; -1 \\ 6 &amp; -4\end{array}\right]\)</span> ? If so, find the eigenvalue.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\left[\begin{array}{l}1 \\ 3\end{array}\right]\)</span> is an eigenvector of <span class="arithmatex">\(A\)</span> with eigenvalue -2 .</p>
 </details>
 <p><strong>Exercise 3</strong> (5.1.5)</p>
 <p>Is <span class="arithmatex">\(\left[\begin{array}{r}3 \\ -2 \\ 1\end{array}\right]\)</span> an eigenvector of <span class="arithmatex">\(\left[\begin{array}{rrr}-4 &amp; 3 &amp; 3 \\ 2 &amp; -3 &amp; -2 \\ -1 &amp; 0 &amp; -2\end{array}\right]\)</span> ? If so, find the eigenvalue.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\left[\begin{array}{r}3 \\ -2 \\ 1\end{array}\right]\)</span> is an eigenvector of <span class="arithmatex">\(A\)</span> for the eigenvalue -5.</p>
 </details>
 <p><strong>Exercise 4</strong> (5.1.7)</p>
 <p>Is <span class="arithmatex">\(\lambda=4\)</span> an eigenvalue of <span class="arithmatex">\(\left[\begin{array}{rrr}3 &amp; 0 &amp; -1 \\ 2 &amp; 3 &amp; 1 \\ -3 &amp; 4 &amp; 5\end{array}\right]\)</span> ? If so, find one corresponding eigenvector.</p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>Yes, <span class="arithmatex">\(\lambda=4\)</span> is an eigenvalue of <span class="arithmatex">\(A\)</span>. The general solution is not requested, so to save time, simply take any nonzero value for <span class="arithmatex">\(x_3\)</span> to produce an eigenvector. If <span class="arithmatex">\(x_3=1\)</span>, then <span class="arithmatex">\(\mathbf{x}=(-1,-1,1)\)</span>.</p>
 </details>
 <p><strong>Exercise 5</strong> (5.1.13, 5.1.16)</p>
 <p>Find a basis for the eigenspace corresponding to both listed eigenvalues.</p>
@@ -955,12 +959,24 @@
 </ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>
+<p>For <span class="arithmatex">\(\lambda=1\)</span> : The general solution of <span class="arithmatex">\((A-I) \mathbf{x}=\mathbf{0}\)</span> is <span class="arithmatex">\(x_2 \mathbf{e}_2\)</span>, where <span class="arithmatex">\(\mathbf{e}_2=\left[\begin{array}{l}0 \\ 1 \\ 0\end{array}\right]\)</span>, and so <span class="arithmatex">\(\mathbf{e}_2\)</span> provides a basis for the eigenspace.</p>
+<p>For <span class="arithmatex">\(\lambda=2\)</span> : The general solution of <span class="arithmatex">\((A-2 I) \mathbf{x}=\mathbf{0}\)</span> is <span class="arithmatex">\(x_3\left[\begin{array}{c}-1 / 2 \\ 1 \\ 1\end{array}\right]\)</span>. A nice basis vector for the eigenspace is <span class="arithmatex">\(\left[\begin{array}{r}-1 \\ 2 \\ 2\end{array}\right]\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=3\)</span> : A basis vector for the eigenspace is <span class="arithmatex">\(\left[\begin{array}{r}-1 \\ 1 \\ 1\end{array}\right]\)</span>.</p>
+</li>
+<li>
+<p>Basis for the eigenspace : <span class="arithmatex">\(\left\{\left[\begin{array}{l}1 \\ 1 \\ 1 \\ 0\end{array}\right],\left[\begin{array}{l}0 \\ 0 \\ 0 \\ 1\end{array}\right]\right\}\)</span></p>
+</li>
+</ol>
 </details>
 <p><strong>Exercise 6</strong> (5.1.40)</p>
 <p>[M] Use a matrix program to find the eigenvalues of the matrix. Then use the method of Example 4 with a row reduction routine to produce a basis for the eigenspace.</p>
 <p><span class="arithmatex">\(\left[\begin{array}{rrrrr}-23 &amp; 57 &amp; -9 &amp; -15 &amp; -59 \\ -10 &amp; 12 &amp; -10 &amp; 2 &amp; -22 \\ 11 &amp; 5 &amp; -3 &amp; -19 &amp; -15 \\ -27 &amp; 31 &amp; -27 &amp; 25 &amp; -37 \\ -5 &amp; -15 &amp; -5 &amp; 1 &amp; 31\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p>[M] For <span class="arithmatex">\(\lambda=-14\)</span>, basis: <span class="arithmatex">\(\left\{\left[\begin{array}{r}-1 \\ 0 \\ 1 \\ 0 \\ 0\end{array}\right],\left[\begin{array}{r}10 \\ 6 \\ 0 \\ 5 \\ 1\end{array}\right]\right\}\)</span>. </p>
+<p>For <span class="arithmatex">\(\lambda=42\)</span>, basis: <span class="arithmatex">\(\left\{\left[\begin{array}{r}0 \\ 1 \\ -2 \\ 5 \\ 0\end{array}\right],\left[\begin{array}{r}-5 \\ -1 \\ -3 \\ 0 \\ 5\end{array}\right]\right\}\)</span>.</p>
 </details>
 <p><strong>Exercise 7</strong> (5.2.1, 5.2.3, 5.2.6)</p>
 <p>Find the characteristic polynomial and the real eigenvalues of the following matricies.</p>
@@ -971,6 +987,11 @@
 </ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>The characteristic polynomial is <span class="arithmatex">\(\operatorname{det}(A-\lambda I)=(2-\lambda)^2-7^2=4-4 \lambda+\lambda^2-49=\lambda^2-4 \lambda-45\)</span>, the eigenvalues of <span class="arithmatex">\(A\)</span> are -2 and -1.</li>
+<li>The characteristic polynomial is <span class="arithmatex">\(\operatorname{det}(A-\lambda I)=(-4-\lambda)(7-\lambda)-(2)(6)=\lambda^2-3 \lambda-40\)</span>, the eigenvalues of <span class="arithmatex">\(A\)</span> are 8 and -5.</li>
+<li>The characteristic polynomial is <span class="arithmatex">\(\operatorname{det}(A-\lambda I)=(9-\lambda)(5-\lambda)-(-2)(2)=\lambda^2-14 \lambda+49=(\lambda-7)(\lambda-7)\)</span>, thus <span class="arithmatex">\(A\)</span> has only one eigenvalue, 7, with multiplicity 2.</li>
+</ol>
 </details>
 <p><strong>Exercise 8</strong> (5.2.10, 5.2.11)</p>
 <p>Following exercises require techniques from Section 3.1. Find the characteristic polynomial of each matrix, using either a cofactor expansion or the special formula for <span class="arithmatex">\(3 \times 3\)</span> determinants described prior to Exercises 15-18 in Section 3.1. [Note: Finding the characteristic polynomial of a <span class="arithmatex">\(3 \times 3\)</span> matrix is not easy to do with just row operations, because the variable <span class="arithmatex">\(\lambda\)</span> is involved.]</p>
@@ -980,18 +1001,24 @@
 </ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(-\lambda^3+15 \lambda^2-73 \lambda+115\)</span></li>
+<li><span class="arithmatex">\(-\lambda^3+8 \lambda^2-19 \lambda+12\)</span></li>
+</ol>
 </details>
 <p><strong>Exercise 9</strong> (5.3.1)</p>
 <p>Let <span class="arithmatex">\(A=P D P^{-1}\)</span> and compute <span class="arithmatex">\(A^4\)</span>.</p>
 <p><span class="arithmatex">\(P=\left[\begin{array}{ll}5 &amp; 7 \\ 2 &amp; 3\end{array}\right], D=\left[\begin{array}{ll}2 &amp; 0 \\ 0 &amp; 1\end{array}\right]\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(A^4=\left[\begin{array}{ll}5 &amp; 7 \\ 2 &amp; 3\end{array}\right]\left[\begin{array}{cc}16 &amp; 0 \\ 0 &amp; 1\end{array}\right]\left[\begin{array}{rr}3 &amp; -7 \\ -2 &amp; 5\end{array}\right]=\left[\begin{array}{cc}226 &amp; -525 \\ 90 &amp; -209\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 10</strong> (5.3.6)</p>
 <p>The matrix <span class="arithmatex">\(A\)</span> is factored in the form <span class="arithmatex">\(P D P^{-1}\)</span>. Use the Diagonalization Theorem to find the eigenvalue of <span class="arithmatex">\(A\)</span> and a basis for the eigenspace.</p>
 <p><span class="arithmatex">\(\begin{aligned} A &amp; =\left[\begin{array}{rrr}3 &amp; 0 &amp; 0 \\ -3 &amp; 4 &amp; 9 \\ 0 &amp; 0 &amp; 3\end{array}\right] \\ &amp; =\left[\begin{array}{rrr}3 &amp; 0 &amp; -1 \\ 0 &amp; 1 &amp; -3 \\ 1 &amp; 0 &amp; 0\end{array}\right]\left[\begin{array}{lll}3 &amp; 0 &amp; 0 \\ 0 &amp; 4 &amp; 0 \\ 0 &amp; 0 &amp; 3\end{array}\right]\left[\begin{array}{rrr}0 &amp; 0 &amp; 1 \\ -3 &amp; 1 &amp; 9 \\ -1 &amp; 0 &amp; 3\end{array}\right]\end{aligned}\)</span></p>
 <details class="answer">
 <summary>&nbsp;</summary>
+<p><span class="arithmatex">\(\lambda=4:\left[\begin{array}{l}0 \\ 1 \\ 0\end{array}\right] ; \lambda=3:\left[\begin{array}{l}3 \\ 0 \\ 1\end{array}\right],\left[\begin{array}{c}-1 \\ -3 \\ 0\end{array}\right]\)</span></p>
 </details>
 <p><strong>Exercise 11</strong> (5.3.10-14)</p>
 <p>Diagonalize the matrices, if possible. The real eigenvalues for Exercises (b)-(e) are included next to the matrix.</p>
@@ -1008,6 +1035,33 @@
 </ol>
 <details class="answer">
 <summary>&nbsp;</summary>
+<ol>
+<li>
+<p>For <span class="arithmatex">\(\lambda=-2\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{r}-1 \\ 1\end{array}\right]\)</span>, and a nice basis vector for the eigenspace is <span class="arithmatex">\(\mathbf{v}_1=\left[\begin{array}{r}-1 \\ 1\end{array}\right]\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=5\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{c}3 / 4 \\ 1\end{array}\right]\)</span>, and a basis vector for the eigenspace is <span class="arithmatex">\(\mathbf{v}_2=\left[\begin{array}{l}3 \\ 4\end{array}\right]\)</span>.</p>
+<p><span class="arithmatex">\(D=\left[\begin{array}{rr}-2 &amp; 0 \\ 0 &amp; 5\end{array}\right]\)</span></p>
+</li>
+<li>
+<p>For <span class="arithmatex">\(\lambda=-1\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{r}-1 \\ 0 \\ 1\end{array}\right]\)</span>, and a nice basis for the eigenspace is <span class="arithmatex">\(\left\{\mathbf{v}_1, \mathbf{v}_2\right\}=\left\{\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right],\left[\begin{array}{c}-1 \\ 0 \\ 1\end{array}\right]\right\}\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=5\)</span>: general solution is <span class="arithmatex">\(x_3\left[\begin{array}{r}1 / 3 \\ 2 / 3 \\ 1\end{array}\right]\)</span>, and a nice basis vector for the eigenspace is <span class="arithmatex">\(\mathbf{v}_3=\left[\begin{array}{l}1 \\ 2 \\ 3\end{array}\right]\)</span>.</p>
+<p><span class="arithmatex">\(D=\left[\begin{array}{ccc}-1 &amp; 0 &amp; 0 \\ 0 &amp; -1 &amp; 0 \\ 0 &amp; 0 &amp; 5\end{array}\right]\)</span></p>
+</li>
+<li>
+<p>For <span class="arithmatex">\(\lambda=2\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{r}-1 \\ 0 \\ 1\end{array}\right]\)</span>, and a nice basis for the eigenspace is <span class="arithmatex">\(\left\{\mathbf{v}_1, \mathbf{v}_2\right\}=\left\{\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right],\left[\begin{array}{c}-1 \\ 0 \\ 1\end{array}\right]\right\}\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=5\)</span>: The general solution is <span class="arithmatex">\(x_3\left[\begin{array}{l}1 \\ 1 \\ 1\end{array}\right]\)</span>, and a basis for the eigenspace is <span class="arithmatex">\(\mathbf{v}_3=\left[\begin{array}{l}1 \\ 1 \\ 1\end{array}\right]\)</span>.</p>
+<p><span class="arithmatex">\(D=\left[\begin{array}{lll}2 &amp; 0 &amp; 0 \\ 0 &amp; 2 &amp; 0 \\ 0 &amp; 0 &amp; 5\end{array}\right]\)</span></p>
+</li>
+<li>
+<p>For <span class="arithmatex">\(\lambda=5\)</span>: The general solution is <span class="arithmatex">\(x_3\left[\begin{array}{r}-1 \\ -1 \\ 1\end{array}\right]\)</span>, and a basis for the eigenspace is <span class="arithmatex">\(\mathbf{v}_1=\left[\begin{array}{r}-1 \\ -1 \\ 1\end{array}\right]\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=1\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{r}-2 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{l}1 \\ 0 \\ 1\end{array}\right]\)</span>, and a basis for the eigenspace is <span class="arithmatex">\(\left\{\mathbf{v}_2, \mathbf{v}_3\right\}=\left\{\left[\begin{array}{r}-2 \\ 1 \\ 0\end{array}\right],\left[\begin{array}{l}1 \\ 0 \\ 1\end{array}\right]\right\}\)</span>.</p>
+<p><span class="arithmatex">\(D=\left[\begin{array}{lll}5 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{array}\right]\)</span></p>
+</li>
+<li>
+<p>For <span class="arithmatex">\(\lambda=2\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right]\)</span>, and a basis for the eigenspace is <span class="arithmatex">\(\mathbf{v}_1=\left[\begin{array}{c}-1 \\ 1 \\ 0\end{array}\right]\)</span>.</p>
+<p>For <span class="arithmatex">\(\lambda=3\)</span>: The general solution is <span class="arithmatex">\(x_2\left[\begin{array}{l}0 \\ 1 \\ 0\end{array}\right]+x_3\left[\begin{array}{r}-2 \\ 0 \\ 1\end{array}\right]\)</span>, and a nice basis for the eigenspace is <span class="arithmatex">\(\left\{\mathbf{v}_2, \mathbf{v}_3\right\}=\left\{\left[\begin{array}{l}0 \\ 1 \\ 0\end{array}\right],\left[\begin{array}{c}-2 \\ 0 \\ 1\end{array}\right]\right\}\)</span>.</p>
+<p><span class="arithmatex">\(D=\left[\begin{array}{lll}2 &amp; 0 &amp; 0 \\ 0 &amp; 3 &amp; 0 \\ 0 &amp; 0 &amp; 3\end{array}\right]\)</span></p>
+</li>
+</ol>
 </details>
 <p><strong>Exercise 12</strong> (5.3.35, 5.3.36)</p>
 <p>[M] Diagonalize the matrices. Use your matrix program's eigenvalue command to find the eigenvalues, and then compute bases for the eigenspaces as in Section 5.1.</p>
@@ -1015,6 +1069,13 @@
 <li><span class="arithmatex">\(\left[\begin{array}{rrrrr}13 &amp; -12 &amp; 9 &amp; -15 &amp; 9 \\ 6 &amp; -5 &amp; 9 &amp; -15 &amp; 9 \\ 6 &amp; -12 &amp; -5 &amp; 6 &amp; 9 \\ 6 &amp; -12 &amp; 9 &amp; -8 &amp; 9 \\ -6 &amp; 12 &amp; 12 &amp; -6 &amp; -2\end{array}\right]\)</span></li>
 <li><span class="arithmatex">\(\left[\begin{array}{rrrrr}24 &amp; -6 &amp; 2 &amp; 6 &amp; 2 \\ 72 &amp; 51 &amp; 9 &amp; -99 &amp; 9 \\ 0 &amp; -63 &amp; 15 &amp; 63 &amp; 63 \\ 72 &amp; 15 &amp; 9 &amp; -63 &amp; 9 \\ 0 &amp; 63 &amp; 21 &amp; -63 &amp; -27\end{array}\right]\)</span></li>
 </ol>
+<details class="answer">
+<summary>&nbsp;</summary>
+<ol>
+<li><span class="arithmatex">\(D=\left[\begin{array}{ccccc}7 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 7 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 7 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; -14 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; -14\end{array}\right]\)</span></li>
+<li><span class="arithmatex">\(D=\left[\begin{array}{ccccc}24 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; -48 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; -48 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 36 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 36\end{array}\right]\)</span></li>
+</ol>
+</details>
 
 
 
