@@ -51,12 +51,14 @@ We'll focus on understanding how these concepts help us find the general solutio
 A particle moving in a planar force field has a position vector $\mathbf{x}$ that satisfies $\mathbf{x}^{\prime}=A \mathbf{x}$. The $2 \times 2$ matrix $A$ has eigenvalues 4 and 2 , with corresponding eigenvectors $\mathbf{v}_1=\left[\begin{array}{r}-3 \\ 1\end{array}\right]$ and $\mathbf{v}_2=\left[\begin{array}{r}-1 \\ 1\end{array}\right]$. Find the position of the particle at time $t$, assuming that $\mathbf{x}(0)=\left[\begin{array}{r}-6 \\ 1\end{array}\right]$.
 
 ??? answer "&nbsp;"
+    $c_1=5 / 2, c_2=-3 / 2$, and $\mathbf{x}(t)=\frac{5}{2}\left[\begin{array}{r}-3 \\ 1\end{array}\right] e^{4 t}-\frac{3}{2}\left[\begin{array}{r}-1 \\ 1\end{array}\right] e^{2 t}$
 
 **Exercise 2** (5.7.2)
 
 Let $A$ be a $2 \times 2$ matrix with eigenvalues -3 and -1 and corresponding eigenvectors $\mathbf{v}_1=\left[\begin{array}{r}-1 \\ 1\end{array}\right]$ and $\mathbf{v}_2=\left[\begin{array}{l}1 \\ 1\end{array}\right]$. Let $\mathbf{x}(t)$ be the position of a particle at time $t$. Solve the initial value problem $\mathbf{x}^{\prime}=A \mathbf{x}, \mathbf{x}(0)=\left[\begin{array}{l}2 \\ 3\end{array}\right]$.
 
 ??? answer "&nbsp;"
+    $c_1=1 / 2, c_2=5 / 2$, and $\mathbf{x}(t)=\frac{1}{2}\left[\begin{array}{r}-1 \\ 1\end{array}\right] e^{-3 t}+\frac{5}{2}\left[\begin{array}{l}1 \\ 1\end{array}\right] e^{-t}$
 
 **Exercise 3** (5.7.3-5.7.6)
 
@@ -68,6 +70,14 @@ Solve the initial value problem $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$ for $t 
 6. $A=\left[\begin{array}{ll}1 & -2 \\ 3 & -4\end{array}\right]$
 
 ??? answer "&nbsp;"
+    3. $c_1=-5 / 2, c_2=9 / 2$, and $\mathbf{x}(t)=-\frac{5}{2}\left[\begin{array}{r}-3 \\ 1\end{array}\right] e^t+\frac{9}{2}\left[\begin{array}{r}-1 \\ 1\end{array}\right] e^{-t}$.
+    Since one eigenvalue is positive and the other is negative, the origin is a saddle point of the dynamical system described by $\mathbf{x}^{\prime}=A \mathbf{x}$. The direction of greatest attraction is the line through $\mathbf{v}_2$ and the origin. The direction of greatest repulsion is the line through $\mathbf{v}_1$ and the origin.
+    4. $c_1=13 / 4, c_2=-5 / 4$, and $\mathbf{x}(t)=\frac{13}{4}\left[\begin{array}{r}-1 \\ 1\end{array}\right] e^{3 t}-\frac{5}{4}\left[\begin{array}{r}-5 \\ 1\end{array}\right] e^{-t}$.
+    Since one eigenvalue is positive and the other is negative, the origin is a saddle point of the dynamical system described by $\mathbf{x}^{\prime}=A \mathbf{x}$. The direction of greatest attraction is the line through $\mathbf{v}_2$ and the origin. The direction of greatest repulsion is the line through $\mathbf{v}_1$ and the origin.
+    5. $c_1=-1 / 2, c_2=7 / 2$, and $\mathbf{x}(t)=-\frac{1}{2}\left[\begin{array}{l}1 \\ 3\end{array}\right] e^{4 t}+\frac{7}{2}\left[\begin{array}{l}1 \\ 1\end{array}\right] e^{6 t}$.
+    Since both eigenvalues are positive, the origin is a repellor of the dynamical system described by $\mathbf{x}^{\prime}=A \mathbf{x}$. The direction of greatest repulsion is the line through $\mathbf{v}_2$ and the origin.
+    6. $c_1=-1, c_2=5$, and $\mathbf{x}(t)=-\left[\begin{array}{l}2 \\ 3\end{array}\right] e^{-2 t}+5\left[\begin{array}{l}1 \\ 1\end{array}\right] e^{-t}$.
+    Since both eigenvalues are negative, the origin is an attractor of the dynamical system described by $\mathbf{x}^{\prime}=A \mathbf{x}$. The direction of greatest attraction is the line through $\mathbf{v}_1$ and the origin.
 
 **Exercise 4** (5.7.7-5.7.8)
 
@@ -77,6 +87,13 @@ Make a change of variable that decouples the equation $\mathbf{x}^{\prime}=A \ma
 8. $A=\left[\begin{array}{ll}1 & -2 \\ 3 & -4\end{array}\right]$
 
 ??? answer "&nbsp;"
+    7. 
+
+        $\left[\begin{array}{l}y_1^{\prime}(t) \\ y_2^{\prime}(t)\end{array}\right]=\left[\begin{array}{ll}4 & 0 \\ 0 & 6\end{array}\right]\left[\begin{array}{l}y_1(t) \\ y_2(t)\end{array}\right]$
+
+    8. 
+
+        $\left[\begin{array}{l}y_1^{\prime}(t) \\ y_2^{\prime}(t)\end{array}\right]=\left[\begin{array}{rr}-2 & 0 \\ 0 & -1\end{array}\right]\left[\begin{array}{l}y_1(t) \\ y_2(t)\end{array}\right]$
 
 **Exercise 5** (5.7.15-5.7.16)
 
@@ -86,15 +103,24 @@ Construct the general solution of $\mathbf{x}^{\prime}=A \mathbf{x}$ involving c
 16. $[\mathbf{M}] A=\left[\begin{array}{rrr}-6 & -11 & 16 \\ 2 & 5 & -4 \\ -4 & -5 & 10\end{array}\right]$
 
 ??? answer "&nbsp;"
+    15. The general solution is $\mathbf{x}(t)=c_1\left[\begin{array}{r}-4 \\ 1 \\ 4\end{array}\right] e^t+c_2\left[\begin{array}{r}-6 \\ 1 \\ 5\end{array}\right] e^{-t}+c_3\left[\begin{array}{r}-1 \\ 0 \\ 1\end{array}\right] e^{-2 t}$. The origin is a saddle point.
+    A solution with $c_1=0$ is attracted to the origin while a solution with $c_2=c_3=0$ is repelled.
+    16. The general solution is $\mathbf{x}(t)=c_1\left[\begin{array}{r}7 \\ -2 \\ 3\end{array}\right] e^{4 t}+c_2\left[\begin{array}{r}3 \\ -1 \\ 1\end{array}\right] e^{3 t}+c_3\left[\begin{array}{l}2 \\ 0 \\ 1\end{array}\right] e^{2 t}$. The origin is a repellor, because all eigenvalues are positive. All trajectories tend away from the origin.
 
 **Exercise 6** (5.7.19)
 
 [M] Find formulas for the voltages $v_1$ and $v_2$ (as functions of time $t$ ) for the circuit in Example 1, assuming that $R_1=1 / 5$ ohm, $R_2=1 / 3$ ohm, $C_1=4$ farads, $C_2=3$ farads, and the initial charge on each capacitor is 4 volts.
 
 ??? answer "&nbsp;"
+    The general solution is $\mathbf{x}(t)=c_1\left[\begin{array}{l}1 \\ 2\end{array}\right] e^{-.5 t}+c_2\left[\begin{array}{r}-3 \\ 2\end{array}\right] e^{-2.5 t}$.
+
+    $\left[\begin{array}{l}v_1(t) \\ v_2(t)\end{array}\right]=\mathbf{x}(t)=\frac{5}{2}\left[\begin{array}{l}1 \\ 2\end{array}\right] e^{-.5 t}-\frac{1}{2}\left[\begin{array}{r}-3 \\ 2\end{array}\right] e^{-2.5 t}$
 
 **Exercise 7** (5.7.20)
 
 [M] Find formulas for the voltages $v_1$ and $v_2$ for the circuit in Example 1, assuming that $R_1=1 / 15 \mathrm{ohm}, R_2=1 / 3 \mathrm{ohm}$, $C_1=9$ farads, $C_2=2$ farads, and the initial charge on each capacitor is 3 volts.
 
 ??? answer "&nbsp;"
+    The general solution is thus $\mathbf{x}(t)=c_1\left[\begin{array}{l}1 \\ 3\end{array}\right] e^{-t}+c_2\left[\begin{array}{r}-2 \\ 3\end{array}\right] e^{-2.5 t}$.
+
+    $\left[\begin{array}{l}v_1(t) \\ v_2(t)\end{array}\right]=\mathbf{x}(t)=\frac{5}{3}\left[\begin{array}{l}1 \\ 3\end{array}\right] e^{-t}-\frac{2}{3}\left[\begin{array}{r}-2 \\ 3\end{array}\right] e^{-2.5 t}$
