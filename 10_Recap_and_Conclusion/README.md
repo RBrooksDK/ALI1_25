@@ -27,46 +27,4 @@ This session is purely dedicated to *you*. It's a recap and Q&A session. Bring q
 
 ## Exercises
 
-<!--
 Do old exam cases
--->
-
-**Exercise 1**
-
-??? answer "&nbsp;"
-
-**Exercise 2**
-
-??? answer "&nbsp;"
-
-**Exercise 3**
-
-??? answer "&nbsp;"
-
-**Exercise 4**
-
-??? answer "&nbsp;"
-
-**Exercise 5**
-
-??? answer "&nbsp;"
-
-**Exercise 6**
-
-??? answer "&nbsp;"
-
-**Exercise 7**
-
-??? answer "&nbsp;"
-
-**Exercise 8**
-
-??? answer "&nbsp;"
-
-**Exercise 9**
-
-??? answer "&nbsp;"
-
-**Exercise 10**
-
-??? answer "&nbsp;"

@@ -39,48 +39,6 @@ Then, we move to a factorization that applies to *any* matrix, not just square o
 
 ## Exercises
 
-<!--
 ALL SVD problems from the Exam Cases (2018-s2020)
      
 If you do not finish in class, work on them at home
--->
-
-**Exercise 1**
-
-??? answer "&nbsp;"
-
-**Exercise 2**
-
-??? answer "&nbsp;"
-
-**Exercise 3**
-
-??? answer "&nbsp;"
-
-**Exercise 4**
-
-??? answer "&nbsp;"
-
-**Exercise 5**
-
-??? answer "&nbsp;"
-
-**Exercise 6**
-
-??? answer "&nbsp;"
-
-**Exercise 7**
-
-??? answer "&nbsp;"
-
-**Exercise 8**
-
-??? answer "&nbsp;"
-
-**Exercise 9**
-
-??? answer "&nbsp;"
-
-**Exercise 10**
-
-??? answer "&nbsp;"
