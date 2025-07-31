@@ -4,7 +4,7 @@
 Lay: 1.1-1.5  + 1.7-1.10 (1.8-1.10 self-study)  
 
 
-[Session Notes]()
+[Session Notes](https://drive.google.com/file/d/1ICEnghBXNo3U_R6AS3uUzzUHit7FCVRy/view?usp=sharing)
 
 [Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EiMKdymBUehBpz9ft6ta4NABEVbrfJnmhYTNyJLH83PH9w?e=iY0JyU)
 
