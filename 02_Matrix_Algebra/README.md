@@ -4,9 +4,9 @@
 
 Lay: 2.1-2.7 (2.4 + 2.6-2.7 self-study)
 
-[Recap and Exercises]()
+[Recap and Exercises](https://drive.google.com/file/d/1kPmXMfygFPIiEaka_L3amf9x1tgVFg1I/view?usp=sharing)
 
-[Session Notes]()
+[Session Notes](https://drive.google.com/file/d/1EbLmjsCjzl_-HmPwmdwT_uVLzA6rPWbo/view?usp=sharing)
 
 [Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EgCkADot6NBNgecwld6KLpwBki3OkF32RFBmtB_xbwSBoQ?e=DY1uNJ)
 

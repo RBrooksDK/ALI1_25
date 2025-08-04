@@ -2,9 +2,9 @@
 
 ## Session Material:
 
-[Recap and Exercises]()
+[Recap and Exercises](https://drive.google.com/file/d/1aV4KGTyLo9xG6Nggc-_ITgNbp0LL-_XC/view?usp=sharing)
 
-[Session Notes]()
+[Session Notes](https://drive.google.com/file/d/1xAHL9RSgd2lWDU-LaGRtwrbEG9U78h9m/view?usp=sharing)
 
 [Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EgXzFwcFf_tBh8mwVvN0UycBh_gTnjRq8A5x15bFaLKCTg?e=eGwSEq)
 

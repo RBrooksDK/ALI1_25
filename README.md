@@ -31,7 +31,7 @@ It is important that you recap some of your high-school math. Most importantly:
 - Vectors and vector operations
 - Differential equations
 
-## :fontawesome-solid-vector-square:{ .fa-vector-square} Lectures and course organization
+## :fontawesome-solid-chalkboard-teacher:{ .fa-chalkboard-teacher} Lectures and course organization
 
 The course is scheduled to start Monday August 4 and will continue up until and including August 19. All sessions are from **8:20 to 11:50** in room **C03.12**, except the very first session which is from **8:20 to 14:20**. In general, each session is made up of four activities:
 

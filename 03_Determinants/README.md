@@ -5,9 +5,9 @@
 
 Lay: 3.1-3.3
 
-[Recap and Exercises]()
+[Recap and Exercises](https://drive.google.com/file/d/1AaUzMugj40HYyCZAiS2O1ZvOGGJNqg6o/view?usp=sharing)
 
-[Session Notes]()
+[Session Notes](https://drive.google.com/file/d/13yh_oxGsW-aWL_f0YgXhUQo3399X88GD/view?usp=sharing)
 
 [Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EqnOhUdCrwBLpZNg2NSxmaUBIxBFaoMXe4X_erAXqiUJFA?e=CVLt0G)
 
