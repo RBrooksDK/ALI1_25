@@ -465,4 +465,3 @@ Mark each statement True or False. Justify each answer.
     2. False. A nontrivial solution of $A \mathbf{x}=\mathbf{0}$ is any nonzero $\mathbf{x}$ that satisfies the equation. See the sentence before Example 2.
     3. True. See the paragraph following Example 3.
     4. True. If the zero vector is a solution, then $\mathbf{b}=A \mathbf{x}=A \mathbf{0}=\mathbf{0}$.
-    5. True. See Theorem 6.

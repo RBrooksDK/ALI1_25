@@ -164,7 +164,7 @@ $$
 ??? answer "&nbsp;"
     1. The product $A C$ is not defined because the number of columns of $A$ does not match the number of rows of $C. 
     C D=\left[\begin{array}{rr}1 & 2 \\ -2 & 1\end{array}\right]\left[\begin{array}{rr}3 & 5 \\ -1 & 4\end{array}\right]=\left[\begin{array}{rr}1 \cdot 3+2(-1) & 1 \cdot 5+2 \cdot 4 \\ -2 \cdot 3+1(-1) & -2 \cdot 5+1 \cdot 4\end{array}\right]=\left[\begin{array}{rr}1 & 13 \\ -7 & -6\end{array}\right]$. For mental computation, the row-column rule is probably easier to use than the definition.
-    2. The product $E C$ is not defined because the number of columns of $E$ does not match the number of rows of $C$.
+    2. The sum $2C-3E$ is not defined because the entries do not match. The product $E C$ is not defined because the number of columns of $E$ does not match the number of rows of $C$.
 
 **Exercise 8** (2.1.10)
 

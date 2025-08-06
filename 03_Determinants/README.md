@@ -80,7 +80,17 @@ $\displaystyle \left|\begin{array}{rrrr}
 $[\mathbf{M}]$ Is it true that $\operatorname{det}(A+B)=\operatorname{det} A+\operatorname{det} B ?$ To find out, generate random $5 \times 5$ matrices $A$ and $B$, and compute $\operatorname{det}(A+B)-\operatorname{det} A-\operatorname{det} B$. (Refer to Exercise 37 in Section 2.1.) Repeat the calculations for three other pairs of $n \times n$ matrices, for various values of $n$. Report your results.
 
 ??? answer "&nbsp;"
-    [M] Answers will vary. The conclusion should be that $\operatorname{det}(A B)=(\operatorname{det} A)(\operatorname{det} B)$.
+    Here are sample results testing whether $\det(A+B)=\det A+\det B$ for random integer matrices $A,B$ of sizes $n=5,2,3,10$:
+
+    |  n |     det(A) |     det(B) | det(A + B) | det(A + B) − det(A) − det(B) |
+    | -: | ---------: | ---------: | ---------: | ---------------------------: |
+    |  5 |        668 |      −1077 |       2765 |                         3174 |
+    |  2 |        −22 |          0 |        −26 |                           −4 |
+    |  3 |        −93 |         28 |        −27 |                           38 |
+    | 10 | 3.11 × 10⁶ | 3.35 × 10⁷ | 3.28 × 10⁸ |                   2.92 × 10⁸ |
+
+    In every case, $\det(A+B)-\det A-\det B\neq0$, demonstrating that $\det(A+B)\neq\det A+\det B$. In general, determinant is **not** an additive function of matrices.
+
 
 **Exercise 4** (3.2.1-3.2.2)
 
