@@ -37,15 +37,16 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 
 ## Exercises
 
-<!--
-"Do this exercise first.pdf" // NOTE: I couldn't find this file
-6.1: 1, 11, 13, 15-18  
-6.2: 1, 9, 12, 21, 35      
-6.3: 1, 3, 7, 13, 17 
--->
+"Do this exercise first.pdf"
+
+
 <style type="text/css">
     ol { list-style-type: lower-alpha; }
 </style>
+
+**Exercise 0**
+
+[Do this exercise first.pdf](https://viaucdk-my.sharepoint.com/:b:/g/personal/rib_viauc_dk/EfVeTGnf_6dGu4Pozd45Z1gBf86W3BOdPiSdvMvwO4XHUw?e=O6d5Bc)
 
 **Exercise 1** (6.1.1)
 
@@ -95,10 +96,10 @@ Find the distance between $\mathbf{x}=\left[\begin{array}{r}10 \\ -3\end{array}\
 
 Determine which pairs of vectors in the following exercises are orthogonal.
 
-15. $\mathbf{a}=\left[\begin{array}{r}8 \\ -5\end{array}\right], \mathbf{b}=\left[\begin{array}{l}-2 \\ -3\end{array}\right]$
-16. $\mathbf{u}=\left[\begin{array}{r}12 \\ 3 \\ -5\end{array}\right], \mathbf{v}=\left[\begin{array}{r}2 \\ -3 \\ 3\end{array}\right]$
-17. $\mathbf{u}=\left[\begin{array}{r}3 \\ 2 \\ -5 \\ 0\end{array}\right], \mathbf{v}=\left[\begin{array}{r}-4 \\ 1 \\ -2 \\ 6\end{array}\right]$
-18. $\mathbf{y}=\left[\begin{array}{r}-3 \\ 7 \\ 4 \\ 0\end{array}\right], \mathbf{z}=\left[\begin{array}{r}1 \\ -8 \\ 15 \\ -7\end{array}\right]$
+1.  $\mathbf{a}=\left[\begin{array}{r}8 \\ -5\end{array}\right], \mathbf{b}=\left[\begin{array}{l}-2 \\ -3\end{array}\right]$
+2.  $\mathbf{u}=\left[\begin{array}{r}12 \\ 3 \\ -5\end{array}\right], \mathbf{v}=\left[\begin{array}{r}2 \\ -3 \\ 3\end{array}\right]$
+3.  $\mathbf{u}=\left[\begin{array}{r}3 \\ 2 \\ -5 \\ 0\end{array}\right], \mathbf{v}=\left[\begin{array}{r}-4 \\ 1 \\ -2 \\ 6\end{array}\right]$
+4.  $\mathbf{y}=\left[\begin{array}{r}-3 \\ 7 \\ 4 \\ 0\end{array}\right], \mathbf{z}=\left[\begin{array}{r}1 \\ -8 \\ 15 \\ -7\end{array}\right]$
 
 ??? answer "&nbsp;"
     15. Since $\mathbf{a} \cdot \mathbf{b}=8(-2)+(-5)(-3)=-1 \neq 0, \mathbf{a}$ and $\mathbf{b}$ are not orthogonal.
