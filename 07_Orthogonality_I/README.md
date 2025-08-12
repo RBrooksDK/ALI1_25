@@ -37,9 +37,6 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 
 ## Exercises
 
-"Do this exercise first.pdf"
-
-
 <style type="text/css">
     ol { list-style-type: lower-alpha; }
 </style>
