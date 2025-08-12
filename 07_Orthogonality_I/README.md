@@ -43,7 +43,8 @@ Building on this, we'll look at "orthogonal sets" of vectors, where every pair i
 
 **Exercise 0**
 
-[Do this exercise first.pdf](https://viaucdk-my.sharepoint.com/:b:/g/personal/rib_viauc_dk/EfVeTGnf_6dGu4Pozd45Z1gBf86W3BOdPiSdvMvwO4XHUw?e=O6d5Bc)
+[Do this exercise first.pdf](https://viaucdk-my.sharepoint.com/:b:/g/personal/rib_viauc_dk/EfVeTGnf_6dGu4Pozd45Z1gBf86W3BOdPiSdvMvwO4XHUw?e=cs0QrB)
+
 
 **Exercise 1** (6.1.1)
 
