@@ -8,7 +8,7 @@ Lay: ​5.1-5.3
 
 [Session Notes](https://drive.google.com/file/d/1B9R3FF0Xz6bitUmtA7I_0IjbwJuhYa0_/view?usp=sharing)
 
-[Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/EgXzFwcFf_tBh8mwVvN0UycBh_gTnjRq8A5x15bFaLKCTg?e=eGwSEq)
+[Session Material](https://viaucdk-my.sharepoint.com/:f:/g/personal/rib_viauc_dk/ErEbWej73CxBiXGFKP-mtx4BzkmBdQWAJOwzWIuvuzoBZw?e=oCjf1Z)
 
 ---
 
