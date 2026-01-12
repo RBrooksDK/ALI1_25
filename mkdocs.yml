@@ -1,16 +1,16 @@
 # Project information
 site_name: Applied Linear Algebra
-site_url: https://rbrooksdk.github.io/ALI1_25
+site_url: https://rbrooksdk.github.io/ALI1_26
 site_author: Richard Brooks
 site_description: Course page for Applied Linear Algebra at VIA University College
 docs_dir: .
 site_dir: ../site
 # Repository information
 repo_name: Github
-repo_url: https://github.com/RBrooksDK/ALI1_25
+repo_url: https://github.com/RBrooksDK/ALI1_26
 
 # Copyright
-copyright: Copyright &copy; 2025 Richard Brooks
+copyright: Copyright &copy; 2026 Richard Brooks
 
 # Configurations
 theme:
